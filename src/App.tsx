@@ -2,21 +2,19 @@ import {
   ConnectWallet,
   Web3Button,
   useContract,
-  useContractRead,
+  //  useContractRead,
   useAddress,
   useTotalCount,
   useTotalCirculatingSupply,
   useClaimNFT,
 } from "@thirdweb-dev/react";
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
   const CONTRACT_ADDR = "0xc4640C25f08f5453883f8aA07C6Cdb8d57bdd6f5";
   const { contract } = useContract(CONTRACT_ADDR);
-  const { data: totalSupply } = useContractRead(contract, "totalSupply");
+  // const { data: totalSupply } = useContractRead(contract, "totalSupply");
 
   const address = useAddress(); // client address
   const { data: totalCount } = useTotalCount(contract);
@@ -37,7 +35,7 @@ function App() {
     }
   }
 
-  const toastLiveExample = document.getElementById("liveToast");
+  //const toastLiveExample = document.getElementById("liveToast");
   //const toastBootstrap = Toast.getOrCreateInstance(toastLiveExample);
 
   return (
