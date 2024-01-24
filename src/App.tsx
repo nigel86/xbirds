@@ -917,7 +917,7 @@ function App() {
         </div>
       </footer>
 
-      {/* Core theme JS
+      {/* Core theme JSss
     <script src="js/scripts.js"></script>
 */}
 
