@@ -66,7 +66,7 @@ function App() {
               modalTitle={"Select Method"}
               welcomeScreen={{
                 img: {
-                  src: "src/assets/logo/x-circle.png",
+                  src: "assets/logo/x-circle.png",
                   width: 250,
                   height: 250,
                 },
@@ -190,7 +190,7 @@ function App() {
         </div>
         <img
           className="img-fluid"
-          src="src/assets/img/blue-light-sky.png"
+          src="assets/img/blue-light-sky.png"
           alt="..."
         />
       </section>
@@ -214,28 +214,28 @@ function App() {
               <div className="row g-4">
                 <div className="col-6">
                   <img
-                    src="src/assets/nft/1.jpg"
+                    src="assets/nft/1.jpg"
                     className="img-fluid rounded d-block mx-auto"
                     alt="Grid 1"
                   />
                 </div>
                 <div className="col-6">
                   <img
-                    src="src/assets/nft/2.jpg"
+                    src="assets/nft/2.jpg"
                     className="img-fluid rounded d-block mx-auto"
                     alt="Grid 2"
                   />
                 </div>
                 <div className="col-6">
                   <img
-                    src="src/assets/nft/3.jpg"
+                    src="assets/nft/3.jpg"
                     className="img-fluid rounded d-block mx-auto"
                     alt="Grid 3"
                   />
                 </div>
                 <div className="col-6">
                   <img
-                    src="src/assets/nft/4.jpg"
+                    src="assets/nft/4.jpg"
                     className="img-fluid rounded d-block mx-auto"
                     alt="Grid 4"
                   />
@@ -256,7 +256,7 @@ function App() {
           <div className="row my-5 justify-content-center">
             <div className="col-md-2 col-sm-4 mb-4">
               <img
-                src="src/assets/img/weapon1.jpg"
+                src="assets/img/weapon1.jpg"
                 alt="X-Bird Power 1"
                 className="img-fluid"
               />
@@ -268,7 +268,7 @@ function App() {
 
             <div className="col-md-2 col-sm-4 mb-4">
               <img
-                src="src/assets/img/weapon2.jpg"
+                src="assets/img/weapon2.jpg"
                 alt="X-Bird Power 2"
                 className="img-fluid"
               />
@@ -280,7 +280,7 @@ function App() {
 
             <div className="col-md-2 col-sm-4 mb-4">
               <img
-                src="src/assets/img/weapon3.jpg"
+                src="assets/img/weapon3.jpg"
                 alt="X-Bird Power 3"
                 className="img-fluid"
               />
@@ -292,7 +292,7 @@ function App() {
 
             <div className="col-md-2 col-sm-4 mb-4">
               <img
-                src="src/assets/img/weapon4.jpg"
+                src="assets/img/weapon4.jpg"
                 alt="X-Bird Power 4"
                 className="img-fluid"
               />
@@ -304,7 +304,7 @@ function App() {
 
             <div className="col-md-2 col-sm-4 mb-4">
               <img
-                src="src/assets/img/weapon5.jpg"
+                src="assets/img/weapon5.jpg"
                 alt="X-Bird Power 5"
                 className="img-fluid"
               />
@@ -441,11 +441,7 @@ function App() {
             <div className="col-md-4">
               <div className="profile wow fadeInUp">
                 <div className="profile_thumb">
-                  <img
-                    src="src/assets/nft/1.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
+                  <img src="assets/nft/1.jpg" className="img-fluid" alt="" />
                 </div>
                 <div className="profile-detail">
                   <h6>mattgene.eth</h6>
@@ -462,11 +458,7 @@ function App() {
             <div className="col-md-4">
               <div className="profile wow fadeInUp">
                 <div className="profile_thumb">
-                  <img
-                    src="src/assets/nft/2.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
+                  <img src="assets/nft/2.jpg" className="img-fluid" alt="" />
                 </div>
                 <div className="profile-detail">
                   <h6>davidsfh40542.eth</h6>
@@ -483,11 +475,7 @@ function App() {
             <div className="col-md-4">
               <div className="profile wow fadeInUp">
                 <div className="profile_thumb">
-                  <img
-                    src="src/assets/nft/3.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
+                  <img src="assets/nft/3.jpg" className="img-fluid" alt="" />
                 </div>
                 <div className="profile-detail">
                   <h6>nigel86.eth</h6>
@@ -868,7 +856,7 @@ function App() {
               <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
               <h2 className="text-white mb-5">Join our Forest</h2>
               <a
-                href="https://t.co/NtNzQekDW7"
+                href="https://discord.com/channels/1037228976852185108/1037228977292574731"
                 className="join-icon"
                 target="_blank"
               >
@@ -886,7 +874,7 @@ function App() {
               Buidl with <i className="fa-solid fa-heart"></i> on
               <img
                 className="mx-2"
-                src="src/assets/logo/op.svg"
+                src="assets/logo/op.svg"
                 alt="External Logo"
                 width="100"
               />
@@ -898,7 +886,7 @@ function App() {
               className="icon"
               target="_blank"
             >
-              <img src="src/assets/logo/etherscan.svg" width="20" />
+              <img src="assets/logo/etherscan.svg" width="20" />
             </a>
             <a
               href="https://twitter.com/XBirdsDAO"
