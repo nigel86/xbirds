@@ -2,7 +2,7 @@ import "./TeamComponent.css";
 
 const TeamComponent: React.FC = () => {
   return (
-    <section className="team-section" id="team-section">
+    <section className="team-section bg-dark" id="team-section">
       <div className="container text-center">
         <div className="row">
           <div className="col-12">

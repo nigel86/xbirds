@@ -8,7 +8,11 @@ const WhiteListComponent: React.FC = () => {
 
   const handleSearch = () => {
     const found = Whitelist.includes(searchTerm);
-    setResult(found ? "found" : "not found");
+    setResult(
+      found
+        ? "Congratulation! You are on our whitelist."
+        : "Sorry, Please join us during public mint."
+    );
   };
 
   const renderInputGroup = () => (

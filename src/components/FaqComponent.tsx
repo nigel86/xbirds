@@ -2,9 +2,9 @@ import "./FaqComponent.css";
 
 const FaqComponent: React.FC = () => {
   return (
-    <section className="faq-section" id="faq-section">
+    <section className="faq-section bg-dark" id="faq-section">
       <div className="container">
-        <h3 className="my-5 text-center">Frequently Asked Questions</h3>
+        <h3 className="py-5 text-center">Frequently Asked Questions</h3>
         <p className="mb-5 text-white-50">
           Thank you so much for the interest to our project! If you have any
           questions or feedback, feel free to contact us!

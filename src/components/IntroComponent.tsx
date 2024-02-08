@@ -2,7 +2,7 @@ import "./IntroComponent.css";
 
 const IntroComponent: React.FC = () => {
   return (
-    <section className="intro-section" id="intro-section">
+    <section className="intro-section bg-dark" id="intro-section">
       <div className="container py-5">
         <div className="row">
           <div className="col-md-8">

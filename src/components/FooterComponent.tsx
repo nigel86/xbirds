@@ -2,7 +2,7 @@ import "./FooterComponent.css";
 
 const FooterComponent: React.FC = () => {
   return (
-    <footer className="small text-white-50 text-center">
+    <footer className="small text-white-50 text-center bg-dark">
       <div className="container py-5">
         <div className="row">
           <div className="col-md-6 d-flex justify-content-md-start justify-content-center">
