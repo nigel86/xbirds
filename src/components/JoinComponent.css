@@ -1,0 +1,26 @@
+.join-section {
+  padding: 15rem 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.5) 75%,
+      #000 100%
+    ),
+    url("./assets/img/bg-signup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.join-icon {
+  color: #7289d9;
+  display: inline-block;
+  transition: filter 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.join-icon:hover {
+  filter: brightness(
+    1.5
+  ); /* Increase the brightness value to make it brighter */
+}

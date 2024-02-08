@@ -1,0 +1,16 @@
+.story-section {
+  background: url("./assets/img/blue-light-sky.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*padding: 50px 0;  Adjust padding as needed */
+}
+
+/* Use Bootstrap responsive classes for text alignment */
+.story-section p {
+  text-align: justify; /*
+    text-sm-left text-md-justify;  Adjust as needed */
+}

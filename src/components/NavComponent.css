@@ -1,0 +1,38 @@
+.nav-section {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(25px);
+}
+
+/* Styles for small button */
+.nav-section .walletbtn {
+  background: var(--bs-primary);
+  border-radius: 5px; /* Rounded corners */
+  color: #fff; /* White text color */
+  transition: all 0.3s ease-in-out;
+  border: none; /* Remove border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  font-size: 14px; /* Smaller font size */
+  padding: 8px 16px; /* Reduce padding for smaller size */
+  font-family: "Playfair Display", serif;
+}
+
+.nav-section .walletbtn:hover {
+  background-color: var(--bs-secondary); /* Change background color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Styles for normal size button */
+@media (min-width: 768px) {
+  .nav-section .walletbtn {
+    padding: 10px 20px; /* Normal padding for desktop size */
+    font-size: 16px; /* Normal font size for desktop */
+  }
+}
+
+/* Media query for small mobile screens */
+@media (max-width: 767px) {
+  .nav-section .walletbtn {
+    padding: 8px 16px; /* Small padding for small mobile screens */
+    font-size: 14px; /* Smaller font size for small mobile screens */
+  }
+}

@@ -1,0 +1,20 @@
+.check-whitelist input {
+  padding: 10px;
+  box-shadow: none;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background-color: white;
+}
+
+.check-whitelist button {
+  padding: 10px 20px;
+  background: #64a19d;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.check-whitelist button:hover {
+  background: var(--bs-secondary);
+}

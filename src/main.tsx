@@ -2,9 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 
-import "bootstrap/dist/css/bootstrap.css";
-import "/src/css/styles_birds.css";
-
 import {
   ThirdwebProvider,
   metamaskWallet,
@@ -39,8 +36,8 @@ if (container) {
           rainbowWallet(),
         ]}
         dAppMeta={{
-          name: "ABirdApp",
-          description: "My ABird app description",
+          name: "XBirdsApp",
+          description: "My XBirds app description",
           logoUrl: "https://example.com/logo.png",
           url: "https://example.com",
           isDarkMode: true,

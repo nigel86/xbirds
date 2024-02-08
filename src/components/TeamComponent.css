@@ -1,0 +1,32 @@
+.team-section img {
+  border-radius: 15px 15px 0 0;
+}
+
+.profile-detail {
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  text-align: right;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  border-radius: 0 0 15px 15px;
+  background-color: darkslategray;
+}
+
+.profile:hover .profile-detail,
+.profile:focus .profile-detail {
+  background-color: #070a57;
+}
+
+.profile-detail::after {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  height: 3px;
+  background-color: var(--bs-primary);
+  content: "";
+  top: 12px;
+  right: 30px;
+}
