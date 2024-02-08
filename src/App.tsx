@@ -4,6 +4,7 @@ import MainComponent from "./components/MainComponent";
 import StoryComponent from "./components/StoryComponent";
 import IntroComponent from "./components/IntroComponent";
 import WeaponComponent from "./components/WeaponComponent";
+import TimelineComponent from "./components/TimelineComponent";
 import FaqComponent from "./components/FaqComponent";
 import TeamComponent from "./components/TeamComponent";
 import JoinComponent from "./components/JoinComponent";
@@ -17,6 +18,7 @@ function App() {
       <StoryComponent />
       <IntroComponent />
       <WeaponComponent />
+      <TimelineComponent />
       <FaqComponent />
       <TeamComponent />
       <JoinComponent />
