@@ -8,6 +8,12 @@
   );
 }
 
+@media (max-width: 767.98px) {
+  .timeline-section .custom-title-style {
+    text-align: justify;
+  }
+}
+
 .timeline-steps {
   display: flex;
   justify-content: center;

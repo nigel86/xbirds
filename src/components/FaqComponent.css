@@ -3,6 +3,13 @@
     --bs-body-font-size
   ); /* Ensure the component inherits the body font size */
 }
+
+@media (max-width: 767.98px) {
+  .faq-section .custom-title-style {
+    text-align: justify;
+  }
+}
+
 .accordion-button {
   font-size: var(
     --bs-body-font-size

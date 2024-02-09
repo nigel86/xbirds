@@ -1,3 +1,9 @@
+@media (max-width: 767.98px) {
+  .team-section .custom-title-style {
+    text-align: justify;
+  }
+}
+
 .team-section img {
   border-radius: 15px 15px 0 0;
 }

@@ -3,9 +3,9 @@ import "./StoryComponent.css";
 const StoryComponent: React.FC = () => {
   return (
     <section className="story-section" id="story-section">
-      <div className="container">
+      <div className="container p-4">
         <h2 className="my-5 text-center">The Tale of XBirds</h2>
-        <p className="text-white-50 p-3">
+        <p className="text-white-50">
           In the ethereal expanse of Aerendir Eyrie, a realm where the moon's
           gentle embrace nurtured an aviary utopia, the graceful Moonbirds once
           thrived. But fate, cruel and unbidden, unleashed its wrath through the
@@ -22,7 +22,7 @@ const StoryComponent: React.FC = () => {
           from different planets across the galaxy, inheritors of ancient
           celestial wisdom and pioneers of advanced humankind technology.
         </p>
-        <p className="text-white-50 p-3">
+        <p className="text-white-50">
           The Metaodys squad took swift action. Their solution, the Luminarael
           Crystal, was a marvel—a blend of ancient black hole energy and quantum
           AI technology. Cast into Aerendir Eyrie's atmosphere, the crystal

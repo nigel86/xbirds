@@ -1,0 +1,5 @@
+/* Use Bootstrap responsive classes for text alignment */
+.intro-section p {
+  text-align: justify; /*
+      text-sm-left text-md-justify;  Adjust as needed */
+}

@@ -3,12 +3,13 @@ import "./WeaponComponent.css";
 const WeaponComponent: React.FC = () => {
   return (
     <section className="weapon-section bg-dark" id="weapon-section">
-      <div className="container py-5 text-center">
+      <div className="container p-4 text-center">
         <div className="row">
           <div className="col-12">
             <h3 className="my-5">The Powers Of X</h3>
-            <p className="text-white-50">
-              Discover the XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            <p className="text-white-50 custom-title-style">
+              Discover the formidable power and unrivaled capabilities of our
+              weaponry.
             </p>
           </div>
         </div>

@@ -3,11 +3,11 @@ import "./TimelineComponent.css";
 const TimelineComponent: React.FC = () => {
   return (
     <section className="timeline-section bg-dark" id="timeline1">
-      <div className="container my-5 text-white">
+      <div className="container p-4 text-white">
         <div className="row text-center justify-content-center">
           <div className="col-xl-6 col-lg-8">
             <h2 className="my-5 font-weight-bold">XBirds Evolution</h2>
-            <p className="my-5 text-white-50">
+            <p className="my-5 text-white-50 custom-title-style">
               We’re very proud of the path we’ve taken. Explore the history that
               made us who we are today.
             </p>

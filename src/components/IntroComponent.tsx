@@ -3,7 +3,7 @@ import "./IntroComponent.css";
 const IntroComponent: React.FC = () => {
   return (
     <section className="intro-section bg-dark" id="intro-section">
-      <div className="container py-5">
+      <div className="container p-4">
         <div className="row">
           <div className="col-md-8">
             <h2 className="text-white text-center my-5">

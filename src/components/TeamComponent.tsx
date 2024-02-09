@@ -3,11 +3,11 @@ import "./TeamComponent.css";
 const TeamComponent: React.FC = () => {
   return (
     <section className="team-section bg-dark" id="team-section">
-      <div className="container text-center">
+      <div className="container p-4 text-center">
         <div className="row">
           <div className="col-12">
             <h3 className="my-5">Our Creative Team</h3>
-            <p className="text-white-50">
+            <p className="text-white-50 custom-title-style">
               Discover the masterminds behind XBirds, crafting innovation
               through creativity and imagination.
             </p>
