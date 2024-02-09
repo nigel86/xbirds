@@ -33,7 +33,7 @@ const FaqComponent: React.FC = () => {
               aria-labelledby="headingOne"
               data-bs-parent="#accordionParent"
             >
-              <div className="accordion-body">
+              <div className="accordion-body bg-dark">
                 You can mint the XBirds NFT simply on and only on{" "}
                 <a
                   href="https://xbirds.art/"
@@ -50,7 +50,7 @@ const FaqComponent: React.FC = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingTwo">
               <button
-                className="accordion-button  collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -66,7 +66,7 @@ const FaqComponent: React.FC = () => {
               aria-labelledby="headingTwo"
               data-bs-parent="#accordionParent"
             >
-              <div className="accordion-body ">
+              <div className="accordion-body bg-dark">
                 Optimism. The contract address is 0xxxxxxxxxxxxxxxxxxxxxxxx.
               </div>
             </div>
@@ -92,7 +92,7 @@ const FaqComponent: React.FC = () => {
               aria-labelledby="headingThree"
               data-bs-parent="#accordionParent"
             >
-              <div className="accordion-body ">
+              <div className="accordion-body bg-dark">
                 The official mint schedule will be starting from 1st Apr 2024
                 4am UTC. Please see our GitBook for detailed information.
               </div>
@@ -119,7 +119,7 @@ const FaqComponent: React.FC = () => {
               aria-labelledby="headingFour"
               data-bs-parent="#accordionParent"
             >
-              <div className="accordion-body ">
+              <div className="accordion-body bg-dark">
                 To qualify for the whitelist mint, you must successfully
                 complete all tasks on QuestN before the designated deadline, and
                 hold the whitelist NFT on snapshot time. Please stay tuned to
@@ -149,7 +149,7 @@ const FaqComponent: React.FC = () => {
               aria-labelledby="headingFive"
               data-bs-parent="#accordionParent"
             >
-              <div className="accordion-body ">
+              <div className="accordion-body bg-dark">
                 For whitelist mint, each wallet is limited to a maximum of 5
                 XBirds. However, for public mint, there are no restrictions, and
                 you are free to mint as many as you desire until the total
@@ -178,7 +178,7 @@ const FaqComponent: React.FC = () => {
               aria-labelledby="headingSix"
               data-bs-parent="#accordionParent"
             >
-              <div className="accordion-body ">
+              <div className="accordion-body bg-dark">
                 In order to support our beloved Optimism Chain, The minting
                 token will be Optimism token(OP). The price for whitelist is 15
                 OP/mint. For public mint, price will be 20 OP/mint.
@@ -205,7 +205,7 @@ const FaqComponent: React.FC = () => {
               aria-labelledby="headingSeven"
               data-bs-parent="#accordionParent"
             >
-              <div className="accordion-body ">
+              <div className="accordion-body bg-dark">
                 You can trade XBirds from secondary market places, such as
                 Opensea.
               </div>
@@ -232,7 +232,7 @@ const FaqComponent: React.FC = () => {
               aria-labelledby="headingEight"
               data-bs-parent="#accordionParent"
             >
-              <div className="accordion-body ">
+              <div className="accordion-body bg-dark">
                 As per our slogan, "Flying Freely Beyond Boundaries: No Roadmap,
                 Just Profits!", from the moment you start holding XBirds, you
                 become a participant in our profit-sharing ecosystem.
@@ -261,7 +261,7 @@ const FaqComponent: React.FC = () => {
               aria-labelledby="headingNine"
               data-bs-parent="#accordionParent"
             >
-              <div className="accordion-body ">
+              <div className="accordion-body bg-dark">
                 XBirds is a fully hand-drawn, truly unique art collection. By
                 acquiring an XBird, you gain the exclusive opportunity to
                 partake in our thriving profit-sharing system. Notably,

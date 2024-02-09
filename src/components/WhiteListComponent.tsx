@@ -20,7 +20,7 @@ const WhiteListComponent: React.FC = () => {
       <input
         type="text"
         id="walletAddress"
-        className="form-control text-white"
+        className="form-control"
         placeholder="Enter your EVM wallet address"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
@@ -48,7 +48,7 @@ const WhiteListComponent: React.FC = () => {
           </div>
         </div>
 
-        <h6 className="mt-3 text-white"> {result}</h6>
+        <h6 className="mt-3"> {result}</h6>
       </div>
     </div>
   );
