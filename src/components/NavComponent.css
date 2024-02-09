@@ -6,7 +6,7 @@
 /* Styles for small button */
 .nav-section .walletbtn {
   background: var(--bs-primary);
-  border-radius: 5px; /* Rounded corners */
+  border-radius: var(--bs-border-radius-pill);
   color: #fff; /* White text color */
   transition: all 0.3s ease-in-out;
   border: none; /* Remove border */

@@ -46,26 +46,25 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Playfair Display", serif, -apple-system,
+  /* --bs-font-sans-serif: "Playfair Display", serif, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
   --bs-font-monospace: "Playfair Display", serif, SFMono-Regular, Menlo, Monaco,
-    Consolas, "Liberation Mono", "Courier New", monospace;
+    Consolas, "Liberation Mono", "Courier New", monospace; */
 
   --bs-gradient: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.15),
     rgba(255, 255, 255, 0)
   );
-  --bs-body-font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI,
-    Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
-    Segoe UI Symbol, Noto Color Emoji;
-  --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
+  --bs-body-font-family: "Source Serif 4", serif; /* Changed 'serif' to 'sans-serif' for better readability on screens */
+  --bs-body-font-size: 1.2rem; /* Changed to relative unit for better scalability */
+  --bs-body-font-weight: 400; /* Keeping the same font-weight */
+  --bs-body-line-height: 1.6; /* Slightly increased for better readability */
+
   --bs-body-color: white;
-  --bs-body-bg: #ffffff;
+  --bs-body-bg: white;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -90,7 +89,7 @@
 
 body {
   margin: 0;
-  letter-spacing: 0.0625em;
+
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);

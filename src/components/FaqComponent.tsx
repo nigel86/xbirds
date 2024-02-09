@@ -5,7 +5,7 @@ const FaqComponent: React.FC = () => {
     <section className="faq-section bg-dark" id="faq-section">
       <div className="container">
         <h3 className="py-5 text-center">Frequently Asked Questions</h3>
-        <p className="mb-5 text-white-50">
+        <p className="mb-5 text-white-50  text-center">
           Thank you so much for the interest to our project! If you have any
           questions or feedback, feel free to contact us!
         </p>
