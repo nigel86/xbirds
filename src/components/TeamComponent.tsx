@@ -21,7 +21,7 @@ const TeamComponent: React.FC = () => {
                     <p className="my-0">Mattgene</p>
                   </div>
                   <div className="col-12">
-                    <p className="my-0 fw-light">Lead Designer</p>
+                    <p className="my-0 fw-light">Design Lead</p>
                   </div>
                   <div className="col-12">
                     <a className="mx-1 text-white" href="#">
@@ -44,7 +44,7 @@ const TeamComponent: React.FC = () => {
                     <p className="my-0">David</p>
                   </div>
                   <div className="col-12">
-                    <p className="my-0 fw-light">Commun. Director</p>
+                    <p className="my-0 fw-light">Content Lead</p>
                   </div>
                   <div className="col-12">
                     <a className="mx-1 text-white" href="#">
@@ -67,7 +67,7 @@ const TeamComponent: React.FC = () => {
                     <p className="my-0">Nigel</p>
                   </div>
                   <div className="col-12">
-                    <p className="my-0 fw-light">Tech. Developer</p>
+                    <p className="my-0 fw-light">Tech Lead</p>
                   </div>
                   <div className="col-12">
                     <a className="mx-1 text-white" href="#">
