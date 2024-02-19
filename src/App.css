@@ -58,10 +58,7 @@
     rgba(255, 255, 255, 0.15),
     rgba(255, 255, 255, 0)
   );
-  --bs-body-font-family: "Source Serif 4", serif; /* Changed 'serif' to 'sans-serif' for better readability on screens */
-  --bs-body-font-size: 1.2rem; /* Changed to relative unit for better scalability */
-  --bs-body-font-weight: 400; /* Keeping the same font-weight */
-  --bs-body-line-height: 1.6; /* Slightly increased for better readability */
+  --bs-body-font-family: "Play", sans-serif; /* Changed 'serif' to 'sans-serif' for better readability on screens */
 
   --bs-body-color: white;
   --bs-body-bg: white;
@@ -91,9 +88,6 @@ body {
   margin: 0;
 
   font-family: var(--bs-body-font-family);
-  font-size: var(--bs-body-font-size);
-  font-weight: var(--bs-body-font-weight);
-  line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
@@ -102,6 +96,27 @@ body {
 }
 .bg-dark {
   background-color: var(--bs-black) !important;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    font-size: 1.1rem; /* Adjust the font size as needed */
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  body {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+  }
 }
 
 /*

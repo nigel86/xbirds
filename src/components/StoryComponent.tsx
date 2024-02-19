@@ -22,6 +22,7 @@ const StoryComponent: React.FC = () => {
           from different planets across the galaxy, inheritors of ancient
           celestial wisdom and pioneers of advanced humankind technology.
         </p>
+        <br />
         <p className="text-white-50">
           The Metaodys squad took swift action. Their solution, the Luminarael
           Crystal, was a marvel—a blend of ancient black hole energy and quantum
@@ -32,10 +33,10 @@ const StoryComponent: React.FC = () => {
           forms, rendering them immune to Celestial Turbulence, but also
           resulted in the creation of a whole new species with unique
           superpowers never seen before. This moment heralded the genesis of the
-          "**XBirds**," a newfound identity embodying the remarkable resilience
-          and extraordinary powers born from the crucible of cosmic adversity.
-          Under the canopy of star-studded skies, the saga of the XBirds
-          unfolds.
+          <b className="text-white"> XBirds</b>, a newfound identity embodying
+          the remarkable resilience and extraordinary powers born from the
+          crucible of cosmic adversity. Under the canopy of star-studded skies,
+          the saga of the XBirds unfolds.
         </p>
       </div>
     </section>

@@ -18,7 +18,7 @@ const TeamComponent: React.FC = () => {
               <div className="profile-detail">
                 <div className="row">
                   <div className="col-12">
-                    <p className="my-0">Mattgene</p>
+                    <p className="my-0">Mattgene Y</p>
                   </div>
                   <div className="col-12">
                     <p className="my-0 fw-light">Design Lead</p>
@@ -41,7 +41,7 @@ const TeamComponent: React.FC = () => {
               <div className="profile-detail">
                 <div className="row">
                   <div className="col-12">
-                    <p className="my-0">David</p>
+                    <p className="my-0">David T</p>
                   </div>
                   <div className="col-12">
                     <p className="my-0 fw-light">Content Lead</p>
@@ -64,7 +64,7 @@ const TeamComponent: React.FC = () => {
               <div className="profile-detail">
                 <div className="row">
                   <div className="col-12">
-                    <p className="my-0">Nigel</p>
+                    <p className="my-0">Nigel C</p>
                   </div>
                   <div className="col-12">
                     <p className="my-0 fw-light">Tech Lead</p>

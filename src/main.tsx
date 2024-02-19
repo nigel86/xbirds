@@ -7,7 +7,6 @@ import {
   metamaskWallet,
   coinbaseWallet,
   walletConnect,
-  embeddedWallet,
   zerionWallet,
   rainbowWallet,
 } from "@thirdweb-dev/react";
@@ -27,19 +26,14 @@ if (container) {
           metamaskWallet({ recommended: true }),
           coinbaseWallet(),
           walletConnect(),
-          embeddedWallet({
-            auth: {
-              options: ["email", "google", "apple", "facebook"],
-            },
-          }),
           zerionWallet(),
           rainbowWallet(),
         ]}
         dAppMeta={{
           name: "XBirdsApp",
-          description: "My XBirds app description",
-          logoUrl: "https://example.com/logo.png",
-          url: "https://example.com",
+          description: "The XBirds app",
+          logoUrl: "https://xbirds.art/assets/logo/logo.svg",
+          url: "https://xbirds.art",
           isDarkMode: true,
         }}
       >
