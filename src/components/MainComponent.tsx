@@ -1,4 +1,4 @@
-import WhiteListComponent from "./WhiteListComponent";
+import CountdownComponent from "./CountdownComponent";
 import MintComponent from "./MintComponent";
 import "./MainComponent.css";
 
@@ -12,7 +12,7 @@ const MainComponent: React.FC = () => {
           <div className="text-center">
             <h1 className="text-uppercase">The XBirds</h1>
 
-            {beforeMintPeriod ? <WhiteListComponent /> : <MintComponent />}
+            {beforeMintPeriod ? <CountdownComponent /> : <MintComponent />}
           </div>
         </div>
       </div>

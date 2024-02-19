@@ -1,0 +1,11 @@
+.counter {
+  background: rgba(192, 192, 192, 0.1);
+  border-radius: 1rem;
+  font-size: clamp(1rem, 8vw, 99rem);
+  line-height: 1;
+  padding: 2vw;
+}
+
+.counter h2 {
+  font-size: clamp(0.6rem, 2vw, 99rem); /* Default font size using clamp */
+}
