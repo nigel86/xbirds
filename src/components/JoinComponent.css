@@ -13,14 +13,16 @@
   background-size: cover;
 }
 
-.join-icon {
+.join-discord-icon {
   color: #7289d9;
   display: inline-block;
-  transition: filter 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.join-twitter-icon {
+  color: #000000;
+  display: inline-block;
 }
 
 .join-icon:hover {
-  filter: brightness(
-    1.5
-  ); /* Increase the brightness value to make it brighter */
+  filter: drop-shadow(0 0 5px #fff); /* Apply a white shadow effect */
 }

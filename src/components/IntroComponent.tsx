@@ -11,7 +11,7 @@ const IntroComponent: React.FC = () => {
             </h2>
             <p className="text-white-50">
               XBirds is a collection of 5,000 hand-drawn unique NFT birds living
-              on the Optimism blockchain. Your xBird grants access to
+              on the Optimism blockchain. Your XBird grants access to
               members-only experience and rewards. Future areas and perks can be
               unlocked by the community through roadmap activation.
             </p>
