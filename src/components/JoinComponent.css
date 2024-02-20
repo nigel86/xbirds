@@ -13,16 +13,6 @@
   background-size: cover;
 }
 
-.join-discord-icon {
-  color: #7289d9;
-  display: inline-block;
-}
-
-.join-twitter-icon {
-  color: #000000;
-  display: inline-block;
-}
-
 .join-icon:hover {
   filter: drop-shadow(0 0 5px #fff); /* Apply a white shadow effect */
 }
