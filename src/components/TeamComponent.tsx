@@ -11,8 +11,8 @@ const TeamComponent: React.FC = () => {
             creativity and imagination.
           </p>
         </div>
-        <div className="row">
-          <div className="col-sm-3 p-5 px-sm-3">
+        <div className="row py-5">
+          <div className="col-6 col-sm-3 ">
             <div className="profile">
               <img src="assets/team/matt.jpg" className="img-fluid" alt="" />
               <div className="profile-detail">
@@ -35,7 +35,7 @@ const TeamComponent: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-3 p-5 px-sm-3">
+          <div className="col-6 col-sm-3 ">
             <div className="profile">
               <img src="assets/team/david.jpg" className="img-fluid" alt="" />
               <div className="profile-detail">
@@ -58,7 +58,7 @@ const TeamComponent: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-3 p-5 px-sm-3">
+          <div className="col-6 col-sm-3 ">
             <div className="profile">
               <img src="assets/team/nigel.jpg" className="img-fluid" alt="" />
               <div className="profile-detail">
@@ -81,7 +81,7 @@ const TeamComponent: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-3 p-5 px-sm-3">
+          <div className="col-6 col-sm-3 ">
             <div className="profile">
               <img src="assets/team/rnv.jpg" className="img-fluid" alt="" />
               <div className="profile-detail">
