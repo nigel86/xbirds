@@ -7,13 +7,14 @@ const IntroComponent: React.FC = () => {
         <div className="row">
           <div className="col-md-8">
             <h2 className="text-white text-center my-5">
-              Discover the XBirds World
+              XBirds is expected to launch in Q2 2024!
             </h2>
             <p className="text-white-50">
-              XBirds is a collection of 5,000 hand-drawn unique NFT birds living
-              on the Optimism blockchain. Your XBird grants access to
-              members-only experience and rewards. Future areas and perks can be
-              unlocked by the community through roadmap activation.
+              XBirds is a collection of 5,000 meticulously hand-drawn and
+              distinctive NFT birds residing on the Optimism blockchain. Beyond
+              the mesmerizing art, each XBird offers exclusive access to a realm
+              of abundance and rewards. Join us on this remarkable journey and
+              become part of the XBirds saga!
             </p>
           </div>
 

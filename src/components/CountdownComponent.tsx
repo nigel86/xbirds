@@ -9,7 +9,7 @@ const CountdownComponent: React.FC = () => {
     seconds: number;
   }
 
-  const targetDate = new Date("2024-04-01T00:00:00Z");
+  const targetDate = new Date("2024-05-01T30:00:00Z");
 
   const generateTimeDisplay = (): TimeDisplayValuesType => {
     const now = new Date();

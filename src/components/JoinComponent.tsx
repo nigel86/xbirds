@@ -52,6 +52,30 @@ const JoinComponent: React.FC = () => {
                   width="70"
                 />
               </a>
+              {/* below need change */}
+              <a
+                href="opensea"
+                className="join-icon join-gitbook-icon mx-4"
+                target="_blank"
+              >
+                <img
+                  src="assets/logo/opensea.svg"
+                  alt="External Logo"
+                  width="70"
+                />
+              </a>
+
+              <a
+                href="op scan explorer"
+                className="join-icon join-gitbook-icon mx-4"
+                target="_blank"
+              >
+                <img
+                  src="assets/logo/etherscan.svg"
+                  alt="External Logo"
+                  width="70"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -91,6 +115,32 @@ const JoinComponent: React.FC = () => {
               target="_blank"
             >
               <img src="assets/logo/gitbook.svg" alt="Logo" width="70" />
+            </a>
+          </div>
+          <div className="col-12">
+            <a
+              href="opensea"
+              className="join-icon join-gitbook-icon mx-4"
+              target="_blank"
+            >
+              <img
+                src="assets/logo/opensea.svg"
+                alt="External Logo"
+                width="70"
+              />
+            </a>
+          </div>
+          <div className="col-12">
+            <a
+              href="op scan explorer"
+              className="join-icon join-gitbook-icon mx-4"
+              target="_blank"
+            >
+              <img
+                src="assets/logo/etherscan.svg"
+                alt="External Logo"
+                width="70"
+              />
             </a>
           </div>
         </div>

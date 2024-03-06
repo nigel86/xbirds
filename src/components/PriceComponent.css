@@ -1,0 +1,17 @@
+.price-section {
+  background: white;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 35rem;
+  background: white, url("assets/info/fund-distribution.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.price-section img {
+  width: 100%;
+  height: auto;
+}

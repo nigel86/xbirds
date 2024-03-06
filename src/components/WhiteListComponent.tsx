@@ -21,7 +21,7 @@ const WhiteListComponent: React.FC = () => {
         type="text"
         id="walletAddress"
         className="form-control"
-        placeholder="Enter your EVM wallet address"
+        placeholder="0x"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />

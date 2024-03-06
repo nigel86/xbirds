@@ -10,8 +10,13 @@ import {
   zerionWallet,
   rainbowWallet,
 } from "@thirdweb-dev/react";
+//import { Sepolia } from "@thirdweb-dev/chains";
+//import { OpSepoliaTestnet } from "@thirdweb-dev/chains";
 
-const activeChain = "optimism-goerli";
+//const activeChain = Sepolia;
+//const activeChain = "optimism-goerli";
+//const activeChain = OpSepoliaTestnet; fail to fetch contract
+const activeChain = "mumbai";
 
 const container: HTMLElement | null = document.getElementById("root");
 
@@ -21,7 +26,7 @@ if (container) {
     <React.StrictMode>
       <ThirdwebProvider
         activeChain={activeChain}
-        clientId="1a89a74f6ecbe74393203612be0349cc"
+        clientId="909ef598c733d782d3175916eea62c24"
         supportedWallets={[
           metamaskWallet({ recommended: true }),
           coinbaseWallet(),
