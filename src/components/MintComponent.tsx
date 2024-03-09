@@ -143,10 +143,12 @@ const MintComponent: React.FC = () => {
                   +
                 </button>
               </div>
-              <p className="h6 text-center p-1 my-3">
-                You are eligible to mint •{" "}
-                {`(Max claimable: ${maxClaimable} per wallet)`}
-              </p>
+              <div>
+                <span className="badge  bg-dark text-light  p-1 my-3">
+                  You are eligible to mint ·{" "}
+                  {`(Max claimable: ${maxClaimable} per wallet)`}
+                </span>
+              </div>
             </div>
           )
         ) : (

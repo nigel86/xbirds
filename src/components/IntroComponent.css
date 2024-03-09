@@ -1,5 +1,20 @@
-/* Use Bootstrap responsive classes for text alignment */
-.intro-section p {
-  text-align: justify; /*
-      text-sm-left text-md-justify;  Adjust as needed */
+/* IntroComponent.css */
+.intro-section {
+  height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+
+.intro-section .carousel {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.intro-section .custom-badge {
+  background-color: var(--bs-primary);
+}
+
+.intro-section .custom-outline {
+  border-color: var(--bs-primary);
+  color: var(--bs-primary);
 }

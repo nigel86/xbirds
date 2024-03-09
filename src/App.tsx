@@ -18,9 +18,9 @@ function App() {
     <main>
       <NavComponent />
       <MainComponent />
-      <PriceComponent />
-      <StoryComponent />
       <IntroComponent />
+      {/* <PriceComponent /> */}
+      <StoryComponent />
       <WeaponComponent />
       <TimelineComponent />
       <FaqComponent />

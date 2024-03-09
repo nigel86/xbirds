@@ -37,7 +37,7 @@ const NavComponent: React.FC = () => {
           <div>
             <ConnectWallet
               className={"walletbtn"}
-              btnTitle="connect wallet"
+              btnTitle="Connect Wallet"
               theme={"dark"}
               switchToActiveChain={true}
               modalSize={"wide"}

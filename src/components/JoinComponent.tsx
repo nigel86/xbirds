@@ -15,8 +15,8 @@ const JoinComponent: React.FC = () => {
               >
                 <img
                   src="assets/logo/discord-white.svg"
-                  alt="External Logo"
-                  width="80"
+                  alt="Logo"
+                  width="50"
                 />
               </a>
               <a
@@ -24,33 +24,21 @@ const JoinComponent: React.FC = () => {
                 className="join-icon join-twitter-icon mx-4"
                 target="_blank"
               >
-                <img
-                  src="assets/logo/x-white.png"
-                  alt="External Logo"
-                  width="60"
-                />
+                <img src="assets/logo/x-white.png" alt="Logo" width="40" />
               </a>
               <a
                 href="https://galxe.com/XBirds"
                 className="join-icon join-galxe-icon mx-4"
                 target="_blank"
               >
-                <img
-                  src="assets/logo/galxe.svg"
-                  alt="External Logo"
-                  width="70"
-                />
+                <img src="assets/logo/galxe.svg" alt="Logo" width="50" />
               </a>
               <a
                 href="https://xbirds.gitbook.io/xbirds-docs/"
                 className="join-icon join-gitbook-icon mx-4"
                 target="_blank"
               >
-                <img
-                  src="assets/logo/gitbook.svg"
-                  alt="External Logo"
-                  width="70"
-                />
+                <img src="assets/logo/gitbook.svg" alt="Logo" width="50" />
               </a>
               {/* below need change */}
               <a
@@ -58,11 +46,7 @@ const JoinComponent: React.FC = () => {
                 className="join-icon join-gitbook-icon mx-4"
                 target="_blank"
               >
-                <img
-                  src="assets/logo/opensea.svg"
-                  alt="External Logo"
-                  width="70"
-                />
+                <img src="assets/logo/opensea.svg" alt="Logo" width="50" />
               </a>
 
               <a
@@ -70,77 +54,60 @@ const JoinComponent: React.FC = () => {
                 className="join-icon join-gitbook-icon mx-4"
                 target="_blank"
               >
-                <img
-                  src="assets/logo/etherscan.svg"
-                  alt="External Logo"
-                  width="70"
-                />
+                <img src="assets/logo/etherscan.svg" alt="Logo" width="50" />
               </a>
             </div>
           </div>
         </div>
 
-        <div className="row m-5 gy-5 d-block d-md-none">
-          <div className="col-12">
+        <div className="row d-md-none">
+          <div className="col-12 mb-5">
             <a
               href="https://discord.gg/gbvDRJsKDc"
               className="join-icon p-4"
               target="_blank"
             >
-              <img src="assets/logo/discord-white.svg" alt="Logo" width="80" />
+              <img src="assets/logo/discord-white.svg" alt="Logo" width="50" />
             </a>
-          </div>
-          <div className="col-12">
             <a
               href="https://twitter.com/XBirdsDAO"
               className="join-icon p-4"
               target="_blank"
             >
-              <img src="assets/logo/x-white.png" alt="Logo" width="60" />
+              <img src="assets/logo/x-white.png" alt="Logo" width="40" />
             </a>
-          </div>
-          <div className="col-12">
             <a
               href="https://galxe.com/XBirds"
               className="join-icon p-4"
               target="_blank"
             >
-              <img src="assets/logo/galxe.svg" alt="Logo" width="70" />
+              <img src="assets/logo/galxe.svg" alt="Logo" width="50" />
             </a>
           </div>
+
           <div className="col-12">
             <a
               href="https://xbirds.gitbook.io/xbirds-docs/"
               className="join-icon p-4"
               target="_blank"
             >
-              <img src="assets/logo/gitbook.svg" alt="Logo" width="70" />
+              <img src="assets/logo/gitbook.svg" alt="Logo" width="50" />
             </a>
-          </div>
-          <div className="col-12">
+
             <a
               href="opensea"
               className="join-icon join-gitbook-icon mx-4"
               target="_blank"
             >
-              <img
-                src="assets/logo/opensea.svg"
-                alt="External Logo"
-                width="70"
-              />
+              <img src="assets/logo/opensea.svg" alt="Logo" width="50" />
             </a>
-          </div>
-          <div className="col-12">
+
             <a
               href="op scan explorer"
               className="join-icon join-gitbook-icon mx-4"
               target="_blank"
             >
-              <img
-                src="assets/logo/etherscan.svg"
-                alt="External Logo"
-                width="70"
-              />
+              <img src="assets/logo/etherscan.svg" alt="Logo" width="50" />
             </a>
           </div>
         </div>
