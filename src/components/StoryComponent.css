@@ -1,5 +1,5 @@
 .story-section {
-  background: url("assets/img/blue-light-sky.png") no-repeat center;
+  background: url("../assets/img/blue-light-sky.png") no-repeat center;
   background-size: cover;
   width: 100%;
   min-height: 100vh;
