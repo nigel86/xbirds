@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@thirdweb-dev/react": "^4.4.0",
+    "@thirdweb-dev/react": "^4.4.15",
     "@thirdweb-dev/sdk": "^4.0.42",
     "ethers": "^5.7.2",
     "jquery": "^3.7.1",
