@@ -31,3 +31,7 @@
 .accordion-button:hover {
   background-color: rgba(5, 5, 5, 0.8); /* Change the background color to red */
 }
+
+.accordion-item {
+  border: none;
+}
