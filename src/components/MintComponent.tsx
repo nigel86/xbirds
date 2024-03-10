@@ -230,8 +230,11 @@ const MintComponent: React.FC = () => {
   // const { data: contractMetadata, isLoading: isContractMetadataLoading } =
   //   useContractMetadata(contract);
 
-  const { data: activeClaimPhase, isLoading: isActiveClaimPhaseLoading } =
-    useActiveClaimConditionForWallet(contract, address);
+  const {
+    data: activeClaimPhase,
+    isLoading: isActiveClaimPhaseLoading,
+    error: acerror,
+  } = useActiveClaimConditionForWallet(contract, address);
 
   const { data: totalSupply, isLoading: isTotalSupplyLoading } =
     useTotalCount(contract);
@@ -311,7 +314,8 @@ const MintComponent: React.FC = () => {
           )}
           <p>
             isACLoading {isActiveClaimPhaseLoading.toString()},,,
-            activeClaimPhase {activeClaimPhase?.toString()}
+            activeClaimPhase {activeClaimPhase?.toString()},,, acerror{" "}
+            {acerror?.toString()}
           </p>
         </div>
         <div className="col bg-white bg-opacity-10 rounded p-3 m-2">
@@ -341,7 +345,7 @@ const MintComponent: React.FC = () => {
               <div
                 className="btn-group my-4"
                 role="group"
-                aria-label="Basic example"
+                aria-label="btn-group"
               >
                 <button
                   type="button"
@@ -368,7 +372,7 @@ const MintComponent: React.FC = () => {
               </div>
               <div>
                 <span className="badge  bg-dark text-light  p-1 my-3">
-                  You are eligible to mint ·{" "}
+                  You are eligible to mint ·
                   {`(Max claimable: ${maxClaimable} per wallet)`}
                 </span>
               </div>
