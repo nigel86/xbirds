@@ -1,1 +1,1 @@
-window.global ||= window;
+window.global ||= window; //for fixing the reference.global

@@ -1,5 +1,5 @@
 import "./App.css";
-//import "./init"; //for fixing the reference.global
+import "./init"; //for fixing the reference.global
 // import WhitelistTopbarComponent from "./components/WhitelistTopbarComponent";
 import NavComponent from "./components/NavComponent";
 import MainComponent from "./components/MainComponent";
