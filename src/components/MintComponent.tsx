@@ -206,6 +206,7 @@
 //     </div>
 //     */
 
+import "./init";
 import {
   Web3Button,
   useContract,
