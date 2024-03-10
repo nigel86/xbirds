@@ -230,11 +230,8 @@ const MintComponent: React.FC = () => {
   // const { data: contractMetadata, isLoading: isContractMetadataLoading } =
   //   useContractMetadata(contract);
 
-  const {
-    data: activeClaimPhase,
-    isLoading: isActiveClaimPhaseLoading,
-    error: acerror,
-  } = useActiveClaimConditionForWallet(contract, address);
+  const { data: activeClaimPhase, isLoading: isActiveClaimPhaseLoading } =
+    useActiveClaimConditionForWallet(contract, address);
 
   const { data: totalSupply, isLoading: isTotalSupplyLoading } =
     useTotalCount(contract);
