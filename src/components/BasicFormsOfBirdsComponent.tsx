@@ -1,6 +1,6 @@
 import "./WeaponComponent.css";
 
-const WeaponComponent: React.FC = () => {
+const BasicFormsOfBirdsComponent: React.FC = () => {
   return (
     <section className="weapon-section bg-dark" id="weapon-section">
       <div className="container p-4 text-center">
@@ -79,4 +79,4 @@ const WeaponComponent: React.FC = () => {
   );
 };
 
-export default WeaponComponent;
+export default BasicFormsOfBirdsComponent;

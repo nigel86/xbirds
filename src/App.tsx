@@ -6,7 +6,7 @@ import MainComponent from "./components/MainComponent";
 import PriceComponent from "./components/PriceComponent";
 import StoryComponent from "./components/StoryComponent";
 import IntroComponent from "./components/IntroComponent";
-import WeaponComponent from "./components/WeaponComponent";
+import BasicFormsOfBirdsComponent from "./components/BasicFormsOfBirdsComponent";
 import TimelineComponent from "./components/TimelineComponent";
 import FaqComponent from "./components/FaqComponent";
 import TeamComponent from "./components/TeamComponent";
@@ -21,7 +21,7 @@ function App() {
       <IntroComponent />
       <PriceComponent />
       <StoryComponent />
-      <WeaponComponent />
+      <BasicFormsOfBirdsComponent />
       <TimelineComponent />
       <FaqComponent />
       <TeamComponent />

@@ -26,7 +26,7 @@ if (container) {
     <React.StrictMode>
       <ThirdwebProvider
         activeChain={activeChain}
-        clientId="953a273c39f67f8d5dd283b0322444b5"
+        clientId="909ef598c733d782d3175916eea62c24"
         supportedWallets={[
           metamaskWallet({ recommended: true }),
           coinbaseWallet(),

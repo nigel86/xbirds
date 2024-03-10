@@ -14,7 +14,7 @@ const PriceComponent: React.FC = () => {
             <h5>Earlybird Price</h5>
             <p className="h1 fw-bold text-primary">0.015 ETH</p>
             <p className="h6 mt-1 text-white-50">
-              First 48 hours after public mint
+              First 48 hours of public mint
             </p>
           </div>
           <div className="col-12 col-sm-4 text-center  my-4">
