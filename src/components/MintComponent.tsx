@@ -309,6 +309,10 @@ const MintComponent: React.FC = () => {
               </p>
             </div>
           )}
+          <p>
+            isACLoading {isActiveClaimPhaseLoading.toString()},,,
+            activeClaimPhase {activeClaimPhase?.toString()}
+          </p>
         </div>
         <div className="col bg-white bg-opacity-10 rounded p-3 m-2">
           {!isTotalSupplyLoading && (
