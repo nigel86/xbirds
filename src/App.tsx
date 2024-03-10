@@ -1,9 +1,9 @@
 import "./App.css";
 
-import WhitelistTopbarComponent from "./components/WhitelistTopbarComponent";
+// import WhitelistTopbarComponent from "./components/WhitelistTopbarComponent";
 import NavComponent from "./components/NavComponent";
 import MainComponent from "./components/MainComponent";
-import PriceComponent from "./components/PriceComponent";
+// import PriceComponent from "./components/PriceComponent";
 import StoryComponent from "./components/StoryComponent";
 import IntroComponent from "./components/IntroComponent";
 import WeaponComponent from "./components/WeaponComponent";
