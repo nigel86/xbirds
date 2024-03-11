@@ -6,37 +6,13 @@ const StoryComponent: React.FC = () => {
       <div className="container p-4">
         <h2 className="my-5 text-center">The Tale of XBirds</h2>
         <p className="text-white-50">
-          In the ethereal expanse of Aerendir Eyrie, a realm where the moon's
-          gentle embrace nurtured an aviary utopia, the graceful Moonbirds once
-          thrived. But fate, cruel and unbidden, unleashed its wrath through the
-          Celestial Turbulence—a remnant of dark energy from an ancient cosmic
-          war. This malevolent force, a spectral echo of a defeated evil, roamed
-          the cosmos aimlessly, corrupting all organic life in its path. The
-          tranquility of Aerendir Eyrie was shattered. The Celestial Turbulence
-          infected the Moonbirds. Transformed into agents of chaos, they turned
-          upon each other, their celestial plumes now a dull echo of their
-          former glory. In their darkest hour, help came unexpectedly. The
-          Metaodys Space Rangers, who had been following the Celestial
-          Turbulence for years, reached Aerendir Eyrie just in time. Led by
-          three extraordinary humans, the spaceship fleet was a mix of beings
-          from different planets across the galaxy, inheritors of ancient
-          celestial wisdom and pioneers of advanced humankind technology.
-        </p>
-        <br />
-        <p className="text-white-50">
-          The Metaodys squad took swift action. Their solution, the Luminarael
-          Crystal, was a marvel—a blend of ancient black hole energy and quantum
-          AI technology. Cast into Aerendir Eyrie's atmosphere, the crystal
-          induced a transformation in the broken bodies of Moonbirds, turning
-          them into half-organic, half-mechanical cyborg aviators. These
-          cybernetic enhancements not only revitalized the birds' physical
-          forms, rendering them immune to Celestial Turbulence, but also
-          resulted in the creation of a whole new species with unique
-          superpowers never seen before. This moment heralded the genesis of the
-          <b className="text-white"> XBirds</b>, a newfound identity embodying
-          the remarkable resilience and extraordinary powers born from the
-          crucible of cosmic adversity. Under the canopy of star-studded skies,
-          the saga of the XBirds unfolds.
+          In the celestial realm of Aerendir Eyrie, once home to the graceful
+          Moonbirds, tragedy struck with the arrival of the Celestial
+          Turbulence—a malevolent force corrupting all life. As chaos reigned,
+          the Metaodys Space Rangers intervened, deploying the transformative
+          Luminarael Crystal. Thus, the XBirds were born—half-organic,
+          half-mechanical aviators with unique powers, rising against cosmic
+          adversity.
         </p>
       </div>
     </section>
