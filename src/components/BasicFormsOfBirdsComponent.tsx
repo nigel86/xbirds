@@ -1,4 +1,4 @@
-import "./WeaponComponent.css";
+import "./BasicFormsOfBirdsComponent.css";
 
 const BasicFormsOfBirdsComponent: React.FC = () => {
   return (

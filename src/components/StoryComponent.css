@@ -8,9 +8,3 @@
   justify-content: center;
   /*padding: 50px 0;  Adjust padding as needed */
 }
-
-/* Use Bootstrap responsive classes for text alignment */
-.story-section p {
-  text-align: justify; /*
-    text-sm-left text-md-justify;  Adjust as needed */
-}
