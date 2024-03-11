@@ -17,7 +17,11 @@ const TeamComponent: React.FC = () => {
         <div className="row py-5">
           <div className="col-6 col-sm-3 mb-3">
             <div className="profile">
-              <img src="assets/team/matt.png" className="img-fluid" alt="" />
+              <img
+                src="assets/team/matt-small.png"
+                className="img-fluid"
+                alt=""
+              />
               <div className="profile-detail">
                 <div>
                   <p className="d-none d-sm-block my-0">Mattgene Y</p>
@@ -44,7 +48,11 @@ const TeamComponent: React.FC = () => {
           </div>
           <div className="col-6 col-sm-3">
             <div className="profile">
-              <img src="assets/team/david.png" className="img-fluid" alt="" />
+              <img
+                src="assets/team/david-small.png"
+                className="img-fluid"
+                alt=""
+              />
               <div className="profile-detail">
                 <div>
                   <p className="d-none d-sm-block my-0">David T</p>
@@ -71,7 +79,11 @@ const TeamComponent: React.FC = () => {
           </div>
           <div className="col-6 col-sm-3">
             <div className="profile">
-              <img src="assets/team/nigel.png" className="img-fluid" alt="" />
+              <img
+                src="assets/team/nigel-small.png"
+                className="img-fluid"
+                alt=""
+              />
               <div className="profile-detail">
                 <div>
                   <p className="d-none d-sm-block my-0">Nigel C</p>
@@ -98,7 +110,11 @@ const TeamComponent: React.FC = () => {
           </div>
           <div className="col-6 col-sm-3">
             <div className="profile">
-              <img src="assets/team/rnv.png" className="img-fluid" alt="" />
+              <img
+                src="assets/team/rnv-small.png"
+                className="img-fluid"
+                alt=""
+              />
               <div className="profile-detail">
                 <div>
                   <p className="d-none d-sm-block my-0">RNV</p>
