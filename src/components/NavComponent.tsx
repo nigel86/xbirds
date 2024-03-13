@@ -44,7 +44,7 @@ const NavComponent: React.FC = () => {
               modalTitle={"Select Method"}
               welcomeScreen={{
                 img: {
-                  src: "assets/logo/x-circle.png",
+                  src: "assets/img/wallet-connect.png",
                   width: 250,
                   height: 250,
                 },

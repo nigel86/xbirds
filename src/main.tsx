@@ -37,7 +37,7 @@ if (container) {
         dAppMeta={{
           name: "XBirdsApp",
           description: "The XBirds app",
-          logoUrl: "https://xbirds.art/assets/logo/logo.svg",
+          logoUrl: "https://xbirds.art/assets/ico/apple-touch-icon.png",
           url: "https://xbirds.art",
           isDarkMode: true,
         }}

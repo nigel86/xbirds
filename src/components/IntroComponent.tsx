@@ -10,10 +10,10 @@ const IntroComponent: React.FC = () => {
               <div className="text-uppercase">Live on OP Mainnet</div>
             </div>
 
-            <h1 className="display-3 fw-bolder mb-3 mb-sm-5 ">
+            <h1 className="display-3 fw-bolder mb-2 mb-sm-5 ">
               <span>What is XBirds?</span>
             </h1>
-            <div className="h5 fw-light mb-4 mb-sm-5">
+            <div className="h5 fw-light mb-2 mb-sm-5">
               XBirds is a collection of 5,000 meticulously hand-drawn and
               distinctive NFT birds residing on the Optimism blockchain. Beyond
               the mesmerizing art, each XBird offers exclusive access to a realm
@@ -97,6 +97,25 @@ const IntroComponent: React.FC = () => {
                 <span className="visually-hidden">Next</span>
               </button>
             </div>
+          </div>
+        </div>
+        <div className="row mt-4 justify-content-center">
+          <div className="col-12 col-sm-4 text-center my-4">
+            <h5>Whitelist Price</h5>
+            <p className="h1 fw-bold text-primary">0.01 ETH</p>
+            <p className="h6 mt-1 text-secondary">Check eligiblity</p>
+          </div>
+          <div className="col-12 col-sm-4 text-center my-4">
+            <h5>Earlybird Price</h5>
+            <p className="h1 fw-bold text-primary">0.015 ETH</p>
+            <p className="h6 mt-1 text-white-50">
+              First 48 hours of public mint
+            </p>
+          </div>
+          <div className="col-12 col-sm-4 text-center  my-4">
+            <h5>Public Price</h5>
+            <p className="h1 fw-bold text-primary">0.02 ETH</p>
+            <p className="h6 mt-1 text-white-50">Only 5000 XBirds in total</p>
           </div>
         </div>
       </div>

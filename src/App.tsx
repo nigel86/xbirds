@@ -3,12 +3,11 @@ import "./init"; //for fixing the reference.global
 // import WhitelistTopbarComponent from "./components/WhitelistTopbarComponent";
 import NavComponent from "./components/NavComponent";
 import MainComponent from "./components/MainComponent";
-import PriceComponent from "./components/PriceComponent";
-import StoryComponent from "./components/StoryComponent";
 import IntroComponent from "./components/IntroComponent";
+import FeatureComponent from "./components/FeatureComponent";
+import StoryComponent from "./components/StoryComponent";
 import BasicFormsOfBirdsComponent from "./components/BasicFormsOfBirdsComponent";
 import TimelineComponent from "./components/TimelineComponent";
-import FaqComponent from "./components/FaqComponent";
 import TeamComponent from "./components/TeamComponent";
 import JoinComponent from "./components/JoinComponent";
 import FooterComponent from "./components/FooterComponent";
@@ -19,11 +18,10 @@ function App() {
       <NavComponent />
       <MainComponent />
       <IntroComponent />
-      <PriceComponent />
+      <FeatureComponent />
       <StoryComponent />
       <BasicFormsOfBirdsComponent />
       <TimelineComponent />
-      <FaqComponent />
       <TeamComponent />
       <JoinComponent />
       <FooterComponent />
