@@ -72,6 +72,69 @@ const BasicFormsOfBirdsComponent: React.FC = () => {
               <p className="mb-0">Harmonic Prism</p>
               <p className="mb-0 text-white-50 fw-light">Common</p>
             </div>
+            <div className="col-12 col-lg-4 mx-auto">
+              <div
+                id="carouselExample"
+                className="carousel slide p-5"
+                data-bs-interval="2000"
+                data-bs-ride="carousel"
+              >
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img
+                      src="assets/nft/002.png"
+                      className="d-block w-100"
+                      alt="item"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      src="assets/nft/003.png"
+                      className="d-block w-100"
+                      alt="item"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      src="assets/nft/005.png"
+                      className="d-block w-100"
+                      alt="item"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      src="assets/nft/006.png"
+                      className="d-block w-100"
+                      alt="item"
+                    />
+                  </div>
+                </div>
+                <button
+                  className="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    className="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button
+                  className="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="next"
+                >
+                  <span
+                    className="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

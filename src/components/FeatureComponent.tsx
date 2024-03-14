@@ -16,7 +16,7 @@ const FeatureComponent = () => {
         <div className="row justify-content-center">
           <div className="col-6 col-md-3 text-center">
             <img
-              src="assets/img/ethereum.png"
+              src="assets/info/ethereum.png"
               alt="Thumbnail A"
               className="img-fluid mb-4"
               width="100"
@@ -29,7 +29,7 @@ const FeatureComponent = () => {
           </div>
           <div className="col-6 col-md-3 text-center">
             <img
-              src="assets/img/multiple-users-silhouette.png"
+              src="assets/info/multiple-users-silhouette.png"
               alt="Thumbnail B"
               className="img-fluid mb-4"
               width="100"
@@ -42,7 +42,7 @@ const FeatureComponent = () => {
           </div>
           <div className="col-6 col-md-3 text-center">
             <img
-              src="./assets/img/paint-board-and-brush.png"
+              src="assets/info/paint-board-and-brush.png"
               alt="Thumbnail C"
               className="img-fluid mb-4"
               width="100"
@@ -55,7 +55,7 @@ const FeatureComponent = () => {
           </div>
           <div className="col-6 col-md-3 text-center">
             <img
-              src="./assets/img/letter-o.png"
+              src="assets/info/letter-o.png"
               alt="Thumbnail D"
               className="img-fluid mb-4"
               width="100"

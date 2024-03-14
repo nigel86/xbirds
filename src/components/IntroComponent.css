@@ -1,8 +1,35 @@
-/* IntroComponent.css */
-.intro-section {
-  height: 100vh;
-  /* mobile viewport bug fix */
-  min-height: -webkit-fill-available;
+/* Media query for screens larger than mobile 
+xs stands for extra small screens. The breakpoint for extra small screens is less than 576 pixels.
+sm stands for small screens. The breakpoint for small screens is 576 pixels or more.
+md stands for medium screens. The breakpoint for medium screens is 768 pixels or more.
+lg stands for large screens. The breakpoint for large screens is 992 pixels or more.
+xl stands for extra large screens. The breakpoint for extra large screens is 1200 pixels or more.
+xxl stands for extra-extra large screens. The breakpoint for extra-extra large screens is 1400 pixels or more.
+
+@media (min-width: 992px) {
+  .intro-section {
+    height: 100vh;
+    
+    min-height: -webkit-fill-available; //mobile viewport bug fix
+  }
+}
+
+*/
+@media (min-width: 1px) {
+  .intro-section {
+    height: 160vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro-section {
+    height: 100vh;
+  }
+}
+
+.intro-section .btn-fixed-size {
+  width: 150px;
+  height: 50px;
 }
 
 .intro-section .carousel {
