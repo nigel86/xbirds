@@ -36,7 +36,7 @@ const IntroComponent: React.FC = () => {
           <div className="col-12 col-md-1 col-lg-1"></div>
           <div className="col-8 col-md-5 col-lg-4 d-flex align-items-center my-3">
             <img
-              src="src/assets/nft/xbirds-water.jpg"
+              src="assets/nft/xbirds-water.jpg"
               alt="Image"
               className="img-thumbnail"
             />
