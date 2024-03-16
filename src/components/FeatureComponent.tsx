@@ -7,7 +7,7 @@ const FeatureComponent = () => {
         <div className="row">
           <div className="col text-center">
             <img
-              src="assets/logo/xbirds.png"
+              src="assets/feature/xbirds.png"
               alt="Feature Image"
               className="img-fluid mb-4"
             />
@@ -16,7 +16,7 @@ const FeatureComponent = () => {
         <div className="row justify-content-center">
           <div className="col-6 col-md-3 text-center">
             <img
-              src="assets/info/profit-sharing.png"
+              src="assets/feature/profit-sharing.png"
               alt="Thumbnail A"
               className="img-fluid mb-4"
               width="100"
@@ -29,7 +29,7 @@ const FeatureComponent = () => {
           </div>
           <div className="col-6 col-md-3 text-center">
             <img
-              src="assets/info/community.png"
+              src="assets/feature/community.png"
               alt="Thumbnail B"
               className="img-fluid mb-4"
               width="100"
@@ -42,9 +42,9 @@ const FeatureComponent = () => {
           </div>
           <div className="col-6 col-md-3 text-center">
             <img
-              src="assets/info/paint-board-and-brush.png"
+              src="assets/feature/artwork.png"
               alt="Thumbnail C"
-              className="img-fluid mb-4 paint-brush-icon"
+              className="img-fluid mb-4"
               width="100"
             />
             <p className="fw-bold text-primary">Original Artworks</p>
@@ -55,7 +55,7 @@ const FeatureComponent = () => {
           </div>
           <div className="col-6 col-md-3 text-center">
             <img
-              src="assets/info/thrive-with-op.png"
+              src="assets/feature/thrive-with-op.png"
               alt="Thumbnail D"
               className="img-fluid mb-4"
               width="100"

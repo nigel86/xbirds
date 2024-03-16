@@ -8,8 +8,8 @@ const TeamComponent: React.FC = () => {
     >
       <div className="container p-4 text-center">
         <div>
-          <h3 className="my-5">Our Creative Team</h3>
-          <p className="text-white-50 custom-title-style">
+          <h1 className="display-3 my-5">Our Creative Team</h1>
+          <p>
             Discover the masterminds behind XBirds, crafting innovation through
             creativity and imagination.
           </p>

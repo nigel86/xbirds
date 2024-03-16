@@ -6,7 +6,7 @@ import MainComponent from "./components/MainComponent";
 import IntroComponent from "./components/IntroComponent";
 import FeatureComponent from "./components/FeatureComponent";
 import StoryComponent from "./components/StoryComponent";
-import FormationComponent from "./components/FormationComponent";
+import EvolutionComponent from "./components/EvolutionComponent";
 import TimelineComponent from "./components/TimelineComponent";
 import TeamComponent from "./components/TeamComponent";
 import JoinComponent from "./components/JoinComponent";
@@ -20,7 +20,7 @@ function App() {
       <IntroComponent />
       <FeatureComponent />
       <StoryComponent />
-      <FormationComponent />
+      <EvolutionComponent />
       <TimelineComponent />
       <TeamComponent />
       <JoinComponent />

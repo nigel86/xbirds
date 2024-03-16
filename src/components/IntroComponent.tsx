@@ -9,8 +9,8 @@ const IntroComponent: React.FC = () => {
             <div className="badge rounded-pill text-dark mt-4 mb-2 custom-badge">
               <div className="text-uppercase">Live on OP Mainnet</div>
             </div>
-            <h1 className="display-4 fw-bolder mb-4">What is XBirds?</h1>
-            <p className="fw-light mb-4">
+            <h1 className="display-3 mb-4">What is XBirds?</h1>
+            <p className="mb-4">
               XBirds is a collection of 5,000 meticulously hand-drawn and
               distinctive NFT birds residing on the Optimism blockchain. Beyond
               the mesmerizing art, each XBird offers exclusive access to a realm

@@ -1,19 +1,19 @@
-import "./FormationComponent.css";
+import "./EvolutionComponent.css";
 
-const FormationComponent = () => {
+const EvolutionComponent = () => {
   return (
-    <section className="team-section bg-dark">
+    <section className="team-section bg-dark d-flex align-items-center">
       <div className="container">
         <div className="row align-items-center py-2">
           <div className="col-xl-4 mb-5 text-center text-xl-start">
             <div className="mb-3">
               <div>
-                <h2 className="fw-bold display-3">Evolution of Xbirds</h2>
+                <h1 className="display-3">Evolution of Xbirds</h1>
               </div>
             </div>
-            <div className="  mb-4">
+            <div className="mb-4">
               <div>
-                <p className="fw-light rfs-10">
+                <p>
                   Embark on a captivating XBirds journey. Join collectors in an
                   extraordinary world of wonder.
                 </p>
@@ -330,4 +330,4 @@ const FormationComponent = () => {
   );
 };
 
-export default FormationComponent;
+export default EvolutionComponent;

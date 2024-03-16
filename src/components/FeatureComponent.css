@@ -6,8 +6,3 @@
     #101216 100%
   );
 }
-
-.paint-brush-icon {
-  filter: invert(44%) sepia(19%) saturate(2439%) hue-rotate(142deg)
-    brightness(97%) contrast(92%);
-}
