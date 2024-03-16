@@ -6,7 +6,7 @@ import MainComponent from "./components/MainComponent";
 import IntroComponent from "./components/IntroComponent";
 import FeatureComponent from "./components/FeatureComponent";
 import StoryComponent from "./components/StoryComponent";
-import BasicFormsOfBirdsComponent from "./components/BasicFormsOfBirdsComponent";
+import FormationComponent from "./components/FormationComponent";
 import TimelineComponent from "./components/TimelineComponent";
 import TeamComponent from "./components/TeamComponent";
 import JoinComponent from "./components/JoinComponent";
@@ -20,7 +20,7 @@ function App() {
       <IntroComponent />
       <FeatureComponent />
       <StoryComponent />
-      <BasicFormsOfBirdsComponent />
+      <FormationComponent />
       <TimelineComponent />
       <TeamComponent />
       <JoinComponent />
