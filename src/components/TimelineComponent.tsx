@@ -44,9 +44,9 @@ const TimelineComponent: React.FC = () => {
                   data-original-title="2004"
                 >
                   <div className="inner-circle"></div>
-                  <p className="h6 mt-3 mb-1">3 May 2024 UTC 05:00</p>
+                  <p className="h6 mt-3 mb-1">2 May 2024 UTC 05:00</p>
                   <p className="h6 text-white-50 mb-0 mb-lg-0">
-                    EARLYBIRD PUBLIC SALE
+                    EARLYBIRD SALE
                   </p>
                 </div>
               </div>
@@ -61,10 +61,8 @@ const TimelineComponent: React.FC = () => {
                   data-original-title="2004"
                 >
                   <div className="inner-circle"></div>
-                  <p className="h6 mt-3 mb-1">4 May 2024 UTC 05:00</p>
-                  <p className="h6 text-white-50 mb-0 mb-lg-0">
-                    STANDARD PUBLIC SALE
-                  </p>
+                  <p className="h6 mt-3 mb-1">3 May 2024 UTC 05:00</p>
+                  <p className="h6 text-white-50 mb-0 mb-lg-0">PUBLIC SALE</p>
                 </div>
               </div>
               <div className="timeline-step">

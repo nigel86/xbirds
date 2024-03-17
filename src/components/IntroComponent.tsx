@@ -24,6 +24,7 @@ const IntroComponent = () => {
                 className="btn d-flex align-items-center justify-content-center px-3 py-2 me-3 custom-outline mb-1 mb-md-0 btn-fixed-size"
                 role="button"
                 data-bs-toggle="button"
+                target="_blank"
               >
                 XBirds Quest
               </a>
@@ -33,6 +34,7 @@ const IntroComponent = () => {
                 className="btn d-flex align-items-center justify-content-center px-3 py-2 btn-outline-secondary btn-fixed-size"
                 role="button"
                 data-bs-toggle="button"
+                target="_blank"
               >
                 Details
               </a>
@@ -52,12 +54,12 @@ const IntroComponent = () => {
           <div className="col-12 col-md-4 text-center mb-4">
             <h6 className="mb-0">Whitelist Price</h6>
             <h1 className="display-3 fw-bold text-primary mb-0">Ξ 0.01</h1>
-            <h6 className="text-secondary">Check eligiblity</h6>
+            <h6 className="text-white-50">Gitbook for detail</h6>
           </div>
           <div className="col-12 col-md-4 text-center mb-4">
             <h6 className="mb-0">Earlybird Price</h6>
             <h1 className="display-3 fw-bold text-primary mb-0">Ξ 0.015</h1>
-            <h6 className="text-white-50">First 48 hours of public mint</h6>
+            <h6 className="text-white-50">Only 24 hours!</h6>
           </div>
           <div className="col-12 col-md-4 text-center mb-4">
             <h6 className="mb-0">Public Price</h6>
