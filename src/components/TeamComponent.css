@@ -1,11 +1,11 @@
 @media (min-width: 1px) {
-  .intro-section {
-    height: 160vh;
+  .team-section {
+    height: 100vh;
   }
 }
 
 @media (min-width: 768px) {
-  .intro-section {
+  .team-section {
     height: 100vh;
   }
 }

@@ -18,10 +18,24 @@ const IntroComponent: React.FC = () => {
               become part of the XBirds saga!
             </p>
 
-            <div className="d-grid gap-3 d-md-flex justify-content-center mb-3">
+            {/* <div className="d-grid gap-3 d-md-flex justify-content-center mb-3">
               <button
                 type="button"
                 className="btn px-3 py-2 me-md-3 custom-outline mb-1 mb-md-0 btn-fixed-size"
+              >
+                XBirds Quest
+              </button>
+              <button
+                type="button"
+                className="btn px-3 py-2 btn-outline-secondary btn-fixed-size"
+              >
+                Details
+              </button>
+            </div> */}
+            <div className="d-flex justify-content-center justify-content-md-start mb-3">
+              <button
+                type="button"
+                className="btn px-3 py-2 me-3 custom-outline mb-1 mb-md-0 btn-fixed-size"
               >
                 XBirds Quest
               </button>
@@ -46,17 +60,17 @@ const IntroComponent: React.FC = () => {
         <div className="row my-4 justify-content-center">
           <div className="col-12 col-md-4 text-center mb-4">
             <h6 className="mb-0">Whitelist Price</h6>
-            <h1 className="display-3 fw-bold text-primary mb-0">⟠ 0.01</h1>
+            <h1 className="display-3 fw-bold text-primary mb-0">Ξ 0.01</h1>
             <h6 className="text-secondary">Check eligiblity</h6>
           </div>
           <div className="col-12 col-md-4 text-center mb-4">
             <h6 className="mb-0">Earlybird Price</h6>
-            <h1 className="display-3 fw-bold text-primary mb-0">⟠ 0.015</h1>
+            <h1 className="display-3 fw-bold text-primary mb-0">Ξ 0.015</h1>
             <h6 className="text-white-50">First 48 hours of public mint</h6>
           </div>
           <div className="col-12 col-md-4 text-center mb-4">
             <h6 className="mb-0">Public Price</h6>
-            <h1 className="display-3 fw-bold text-primary mb-0">⟠ 0.02</h1>
+            <h1 className="display-3 fw-bold text-primary mb-0">Ξ 0.02</h1>
             <h6 className="text-white-50">Only 5000 XBirds in total</h6>
           </div>
         </div>

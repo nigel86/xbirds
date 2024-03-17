@@ -2,20 +2,17 @@ import "./TeamComponent.css";
 
 const TeamComponent: React.FC = () => {
   return (
-    <section
-      className="team-section bg-dark d-flex align-items-center"
-      id="team-section"
-    >
-      <div className="container p-4 text-center">
+    <section className="team-section bg-dark d-flex align-items-center px-3">
+      <div className="container text-center">
         <div>
-          <h1 className="display-3 my-5">Our Creative Team</h1>
+          <h1 className="display-3">Our Creative Team</h1>
           <p>
             Discover the masterminds behind XBirds, crafting innovation through
             creativity and imagination.
           </p>
         </div>
         <div className="row py-5">
-          <div className="col-6 col-sm-3 mb-3">
+          <div className="col-6 col-md-3 mb-3">
             <div className="profile">
               <img
                 src="assets/team/matt-small.png"
@@ -46,7 +43,7 @@ const TeamComponent: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-sm-3">
+          <div className="col-6 col-md-3">
             <div className="profile">
               <img
                 src="assets/team/david-small.png"
@@ -77,7 +74,7 @@ const TeamComponent: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-sm-3">
+          <div className="col-6 col-md-3">
             <div className="profile">
               <img
                 src="assets/team/nigel-small.png"
@@ -108,7 +105,7 @@ const TeamComponent: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-sm-3">
+          <div className="col-6 col-md-3">
             <div className="profile">
               <img
                 src="assets/team/rnv-small.png"

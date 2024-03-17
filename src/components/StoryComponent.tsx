@@ -2,7 +2,7 @@ import "./StoryComponent.css";
 
 const StoryComponent: React.FC = () => {
   return (
-    <section className="story-section" id="story-section">
+    <section className="story-section px-3">
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-4">
@@ -10,7 +10,7 @@ const StoryComponent: React.FC = () => {
               The Tale of XBirds
             </h1>
           </div>
-          <div className="col-12 col-lg-8">
+          <div className="col-12 col-lg-8 text-center">
             <p>
               In the celestial realm of Aerendir Eyrie, once home to the
               graceful Moonbirds, tragedy struck with the arrival of the
