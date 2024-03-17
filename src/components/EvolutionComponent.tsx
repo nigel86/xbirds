@@ -253,7 +253,7 @@ const EvolutionComponent = () => {
                           alt="..."
                         />
                         <div className="card-body">
-                          <h5 className="card-title text-center">GOTHIC 2</h5>
+                          <h5 className="card-title text-center">???</h5>
                         </div>
                       </div>
                     </div>

@@ -30,11 +30,12 @@ const TeamComponent: React.FC = () => {
                   </p>
                 </div>
                 <div>
-                  <a className="mx-1 text-white" href="#">
+                  <a
+                    className="mx-1 text-white"
+                    href="https://twitter.com/duke_mattgene"
+                    target="_blank"
+                  >
                     <i className="fa-brands fa-x-twitter"></i>
-                  </a>
-                  <a className="mx-1 text-white" href="#">
-                    <i className="fa-brands fa-medium"></i>
                   </a>
                 </div>
               </div>
@@ -58,11 +59,12 @@ const TeamComponent: React.FC = () => {
                   </p>
                 </div>
                 <div>
-                  <a className="mx-1 text-white" href="#">
+                  <a
+                    className="mx-1 text-white"
+                    href="https://twitter.com/sfh40542"
+                    target="_blank"
+                  >
                     <i className="fa-brands fa-x-twitter"></i>
-                  </a>
-                  <a className="mx-1 text-white" href="#">
-                    <i className="fa-brands fa-discord"></i>
                   </a>
                 </div>
               </div>
@@ -86,11 +88,12 @@ const TeamComponent: React.FC = () => {
                   </p>
                 </div>
                 <div>
-                  <a className="mx-1 text-white" href="#">
+                  <a
+                    className="mx-1 text-white"
+                    href="https://twitter.com/nigelchangmo"
+                    target="_blank"
+                  >
                     <i className="fa-brands fa-x-twitter"></i>
-                  </a>
-                  <a className="mx-1 text-white" href="#">
-                    <i className="fa-brands fa-discord"></i>
                   </a>
                 </div>
               </div>
@@ -114,11 +117,12 @@ const TeamComponent: React.FC = () => {
                   </p>
                 </div>
                 <div>
-                  <a className="mx-1 text-white" href="#">
+                  <a
+                    className="mx-1 text-white"
+                    href="https://twitter.com/RinovMRN"
+                    target="_blank"
+                  >
                     <i className="fa-brands fa-x-twitter"></i>
-                  </a>
-                  <a className="mx-1 text-white" href="#">
-                    <i className="fa-brands fa-discord"></i>
                   </a>
                 </div>
               </div>
