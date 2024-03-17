@@ -2,6 +2,8 @@ import "./App.css";
 import "./init"; //for fixing the reference.global
 import NavComponent from "./components/NavComponent";
 import MainComponent from "./components/MainComponent";
+import MyBirdComponent from "./components/MyBirdComponent";
+
 import IntroComponent from "./components/IntroComponent";
 import FeatureComponent from "./components/FeatureComponent";
 import StoryComponent from "./components/StoryComponent";
@@ -17,6 +19,7 @@ function App() {
     <main>
       <NavComponent />
       <MainComponent />
+      <MyBirdComponent />
       <IntroComponent />
       <FeatureComponent />
       <StoryComponent />
