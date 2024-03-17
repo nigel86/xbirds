@@ -26,7 +26,7 @@ const EvolutionComponent = () => {
               <div className="col-6 col-md-3 mb-4">
                 <div
                   id="alpha"
-                  className="carousel slide"
+                  className="carousel slide carousel-fade"
                   data-bs-ride="carousel"
                 >
                   <div className="carousel-inner">
@@ -85,7 +85,7 @@ const EvolutionComponent = () => {
               <div className="col-6 col-md-3 mb-4">
                 <div
                   id="nebulon"
-                  className="carousel slide"
+                  className="carousel slide carousel-fade"
                   data-bs-ride="carousel"
                 >
                   <div className="carousel-inner">
@@ -156,7 +156,7 @@ const EvolutionComponent = () => {
               <div className="col-6 col-md-3 mb-4">
                 <div
                   id="omega"
-                  className="carousel slide"
+                  className="carousel slide carousel-fade"
                   data-bs-ride="carousel"
                 >
                   <div className="carousel-inner">
@@ -229,7 +229,7 @@ const EvolutionComponent = () => {
               <div className="col-6 col-md-3 mb-4">
                 <div
                   id="gothic"
-                  className="carousel slide"
+                  className="carousel slide carousel-fade"
                   data-bs-ride="carousel"
                 >
                   <div className="carousel-inner">
@@ -290,7 +290,7 @@ const EvolutionComponent = () => {
               <div className="col-6 col-md-3 mb-4">
                 <div
                   id="legendary"
-                  className="carousel slide"
+                  className="carousel slide carousel-fade"
                   data-bs-ride="carousel"
                 >
                   <div className="carousel-inner">

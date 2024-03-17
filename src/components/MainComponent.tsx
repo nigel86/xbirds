@@ -3,7 +3,7 @@ import MintComponent from "./MintComponent";
 import "./MainComponent.css";
 
 const MainComponent: React.FC = () => {
-  const beforeMintPeriod = false;
+  // const beforeMintPeriod = false;
 
   return (
     <div className="masthead-section" id="masthead-section">
@@ -12,7 +12,42 @@ const MainComponent: React.FC = () => {
           <div className="text-center">
             <h1 className="text-uppercase my-5">The XBirds</h1>
 
-            {beforeMintPeriod ? <CountdownComponent /> : <MintComponent />}
+            <div id="test" className="carousel slide" data-bs-ride="carousel">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <CountdownComponent />
+                </div>
+                <div className="carousel-item">
+                  <MintComponent />
+                </div>
+              </div>
+              <button
+                className="carousel-control-prev"
+                type="button"
+                data-bs-target="#test"
+                data-bs-slide="prev"
+              >
+                <span
+                  className="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button
+                className="carousel-control-next"
+                type="button"
+                data-bs-target="#test"
+                data-bs-slide="next"
+              >
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            {/* {beforeMintPeriod ? <CountdownComponent /> : <MintComponent />} */}
           </div>
         </div>
       </div>

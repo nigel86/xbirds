@@ -1,6 +1,5 @@
 import "./App.css";
 import "./init"; //for fixing the reference.global
-// import WhitelistTopbarComponent from "./components/WhitelistTopbarComponent";
 import NavComponent from "./components/NavComponent";
 import MainComponent from "./components/MainComponent";
 import IntroComponent from "./components/IntroComponent";
@@ -11,6 +10,7 @@ import TimelineComponent from "./components/TimelineComponent";
 import TeamComponent from "./components/TeamComponent";
 import JoinComponent from "./components/JoinComponent";
 import FooterComponent from "./components/FooterComponent";
+import WhitelistModalComponent from "./components/WhitelistModalComponent";
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
       <TeamComponent />
       <JoinComponent />
       <FooterComponent />
+      <WhitelistModalComponent />
     </main>
   );
 }

@@ -21,14 +21,11 @@ const TeamComponent: React.FC = () => {
               />
               <div className="profile-detail">
                 <div>
-                  <p className="d-none d-sm-block my-0">Mattgene Y</p>
-                  <p className="smallest-text d-block d-sm-none my-0">
-                    Mattgene Y
-                  </p>
+                  <p className="my-0">Mattgene Y</p>
                 </div>
-                <div>
+                <div className="profile">
                   <p className="d-none d-sm-block my-0">Design Lead</p>
-                  <p className="smallest-text d-block d-sm-none my-0">
+                  <p className="d-block d-sm-none my-0 smallest-text">
                     Design Lead
                   </p>
                 </div>
@@ -52,14 +49,11 @@ const TeamComponent: React.FC = () => {
               />
               <div className="profile-detail">
                 <div>
-                  <p className="d-none d-sm-block my-0">David T</p>
-                  <p className="smallest-text d-block d-sm-none my-0">
-                    David T
-                  </p>
+                  <p className="my-0">David T</p>
                 </div>
                 <div>
                   <p className="d-none d-sm-block my-0">Content Lead</p>
-                  <p className="smallest-text d-block d-sm-none my-0">
+                  <p className="d-block d-sm-none my-0 smallest-text">
                     Content Lead
                   </p>
                 </div>
@@ -83,14 +77,11 @@ const TeamComponent: React.FC = () => {
               />
               <div className="profile-detail">
                 <div>
-                  <p className="d-none d-sm-block my-0">Nigel C</p>
-                  <p className="smallest-text d-block d-sm-none my-0">
-                    Nigel C
-                  </p>
+                  <p className="my-0">Nigel C</p>
                 </div>
                 <div>
                   <p className="d-none d-sm-block my-0">Tech Lead</p>
-                  <p className="smallest-text d-block d-sm-none my-0">
+                  <p className="d-block d-sm-none my-0 smallest-text">
                     Tech Lead
                   </p>
                 </div>
@@ -114,12 +105,11 @@ const TeamComponent: React.FC = () => {
               />
               <div className="profile-detail">
                 <div>
-                  <p className="d-none d-sm-block my-0">RNV</p>
-                  <p className="smallest-text d-block d-sm-none my-0">RNV</p>
+                  <p className="my-0">RNV</p>
                 </div>
                 <div>
                   <p className="d-none d-sm-block my-0">Community Lead</p>
-                  <p className="smallest-text d-block d-sm-none my-0">
+                  <p className="d-block d-sm-none my-0 smallest-text">
                     Community Lead
                   </p>
                 </div>

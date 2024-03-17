@@ -1,6 +1,6 @@
 import "./IntroComponent.css";
 
-const IntroComponent: React.FC = () => {
+const IntroComponent = () => {
   return (
     <section className="intro-section bg-dark d-flex align-items-center">
       <div className="container px-4">
@@ -18,33 +18,24 @@ const IntroComponent: React.FC = () => {
               become part of the XBirds saga!
             </p>
 
-            {/* <div className="d-grid gap-3 d-md-flex justify-content-center mb-3">
-              <button
-                type="button"
-                className="btn px-3 py-2 me-md-3 custom-outline mb-1 mb-md-0 btn-fixed-size"
-              >
-                XBirds Quest
-              </button>
-              <button
-                type="button"
-                className="btn px-3 py-2 btn-outline-secondary btn-fixed-size"
-              >
-                Details
-              </button>
-            </div> */}
             <div className="d-flex justify-content-center justify-content-md-start mb-3">
-              <button
-                type="button"
-                className="btn px-3 py-2 me-3 custom-outline mb-1 mb-md-0 btn-fixed-size"
+              <a
+                href="https://galxe.com/XBirds"
+                className="btn d-flex align-items-center justify-content-center px-3 py-2 me-3 custom-outline mb-1 mb-md-0 btn-fixed-size"
+                role="button"
+                data-bs-toggle="button"
               >
                 XBirds Quest
-              </button>
-              <button
-                type="button"
-                className="btn px-3 py-2 btn-outline-secondary btn-fixed-size"
+              </a>
+
+              <a
+                href="https://xbirds.gitbook.io/xbirds-docs"
+                className="btn d-flex align-items-center justify-content-center px-3 py-2 btn-outline-secondary btn-fixed-size"
+                role="button"
+                data-bs-toggle="button"
               >
                 Details
-              </button>
+              </a>
             </div>
           </div>
           <div className="col-12 col-md-1 col-lg-1"></div>

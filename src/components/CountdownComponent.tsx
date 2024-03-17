@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./CountdownComponent.css";
 
-const CountdownComponent: React.FC = () => {
+const CountdownComponent = () => {
   interface TimeDisplayValuesType {
     days: number;
     hours: number;
@@ -9,7 +9,13 @@ const CountdownComponent: React.FC = () => {
     seconds: number;
   }
 
-  const targetDate = new Date("2024-05-01T30:00:00Z");
+  const targetDate = new Date();
+  targetDate.setUTCFullYear(2024);
+  targetDate.setUTCMonth(4); // 4 represents May (0-indexed)
+  targetDate.setUTCDate(1); // 1 represents the day of the month
+  targetDate.setUTCHours(5);
+  targetDate.setUTCMinutes(0);
+  targetDate.setUTCSeconds(0);
 
   const generateTimeDisplay = (): TimeDisplayValuesType => {
     const now = new Date();

@@ -18,8 +18,8 @@ const FeatureComponent = () => {
           </div>
           <div className="col-lg-6">
             <h1 className="display-3">
-              Everyone benefits from our{" "}
-              <span className="text-primary fst-italic">fair</span> model
+              Everyone benefits from our <em className="text-primary">fair </em>
+              model
             </h1>
             <div className="mt-4">
               <div className="row mb-3">
