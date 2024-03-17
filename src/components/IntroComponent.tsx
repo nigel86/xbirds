@@ -22,8 +22,6 @@ const IntroComponent = () => {
               <a
                 href="https://galxe.com/XBirds"
                 className="btn d-flex align-items-center justify-content-center px-3 py-2 me-3 custom-outline mb-1 mb-md-0 btn-fixed-size"
-                role="button"
-                data-bs-toggle="button"
                 target="_blank"
               >
                 XBirds Quest
@@ -32,8 +30,6 @@ const IntroComponent = () => {
               <a
                 href="https://xbirds.gitbook.io/xbirds-docs"
                 className="btn d-flex align-items-center justify-content-center px-3 py-2 btn-outline-secondary btn-fixed-size"
-                role="button"
-                data-bs-toggle="button"
                 target="_blank"
               >
                 Details
