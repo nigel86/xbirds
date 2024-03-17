@@ -48,8 +48,8 @@ const MyBirdComponent = () => {
                         <div className="text-center">
                           <ThirdwebNftMedia
                             metadata={nft.metadata}
-                            width={180}
-                            height={180}
+                            width="180"
+                            height="180"
                             className="card-img-top mx-auto"
                           />
                         </div>
