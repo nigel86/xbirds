@@ -18,21 +18,23 @@ const WhitelistModalComponent = () => {
 
   return (
     <section className="modal-section">
-      {showFooter && (
-        <div className="footer">
-          <h3>Whitelist Eligibility Checker</h3>
-          <p className="text-muted">
-            {address
-              ? isWhitelisted
-                ? "Congratulations 🎉🥳 You can come and mint on 1 May 2024."
-                : "Sorry 🥺🥺 You are not eligible for Whitelist sale. Join us 3 May 2024 for early bird public sale."
-              : "Please connect wallet"}
-          </p>
-          <button className="btn btn-secondary" onClick={handleCloseFooter}>
-            Got it
-          </button>
-        </div>
-      )}
+      <div className="container">
+        {showFooter && (
+          <div className="d-md-flex d-xs-block align-items-center justify-content-center">
+            <p className="h6 my-md-0">
+              {address
+                ? isWhitelisted
+                  ? "Congratulations 🎉🥳 You are on our Whitelist! Minting is avaliable on 1 May 2024."
+                  : "Sorry 🥺🥺 You are not eligible for Whitelist sale. Join us 2 May 2024 for Earlybird Sale."
+                : "Connect wallet to check Whitelist Eligibility."}
+            </p>
+            <span className="flex-grow-1"></span>
+            <button className="btn btn-secondary" onClick={handleCloseFooter}>
+              Got it
+            </button>
+          </div>
+        )}
+      </div>
     </section>
   );
 };

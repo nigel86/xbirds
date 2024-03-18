@@ -1,7 +1,7 @@
 import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
 import "./NavComponent.css";
 
-const NavComponent: React.FC = () => {
+const NavComponent = () => {
   const address = useAddress();
   return (
     <div>
@@ -50,9 +50,7 @@ const NavComponent: React.FC = () => {
                 },
                 title: "Your gateway to the XBirds World",
               }}
-              modalTitleIconUrl={
-                "https://cdn.discordapp.com/emojis/1195244058709348414.webp?size=96&quality=lossless"
-              }
+              modalTitleIconUrl={"assets/logo/xbirds.png"}
               detailsBtn={() => {
                 return <button className={"walletbtn me-4"}>My Profile</button>;
               }}

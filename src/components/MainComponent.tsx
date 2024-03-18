@@ -1,4 +1,4 @@
-import CountdownComponent from "./CountdownComponent";
+//import CountdownComponent from "./CountdownComponent";
 import MintComponent from "./MintComponent";
 import "./MainComponent.css";
 
@@ -12,7 +12,7 @@ const MainComponent: React.FC = () => {
           <div className="text-center">
             <h1 className="text-uppercase my-5">The XBirds</h1>
 
-            <div id="test" className="carousel slide" data-bs-ride="carousel">
+            {/* <div id="test" className="carousel slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <CountdownComponent />
@@ -45,8 +45,8 @@ const MainComponent: React.FC = () => {
                 ></span>
                 <span className="visually-hidden">Next</span>
               </button>
-            </div>
-
+            </div> */}
+            <MintComponent />
             {/* {beforeMintPeriod ? <CountdownComponent /> : <MintComponent />} */}
           </div>
         </div>

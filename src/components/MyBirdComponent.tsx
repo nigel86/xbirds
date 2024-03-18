@@ -30,43 +30,22 @@ const MyBirdComponent = () => {
             <hr />
 
             <div>
-              <div className="row">
+              <div className="row text-center">
                 {!isOwnedNFTsLoading ? (
                   ownedNFTs?.length! > 0 ? (
                     ownedNFTs?.map((nft) => (
                       <div
                         key={nft.metadata.id}
-                        className="col-auto col-lg-3 g-3 position-relative"
+                        className="col-6 col-md-4 mb-5 mb-md-0"
                       >
-                        <div className="text-white position-absolute bottom-0 start-0 w-100 text-center">
-                          <div>
-                            <h3 className="glass_background mx-2 text-white">
-                              {nft.metadata.name}
-                            </h3>
-                          </div>
-                        </div>
-                        <div className="text-center">
-                          <ThirdwebNftMedia
-                            metadata={nft.metadata}
-                            width="180"
-                            height="180"
-                            className="card-img-top mx-auto"
-                          />
-                        </div>
+                        <ThirdwebNftMedia
+                          metadata={nft.metadata}
+                          width="150"
+                          height="150"
+                          className="w-50 mb-3 shadow "
+                        />
 
-                        {/*<div className="card bg-dark text-center border-primary">
-                          <ThirdwebNftMedia
-                            metadata={nft.metadata}
-                            width={150}
-                            height={150}
-                            className="card-img-top mx-auto"
-                          />
-                          <div className="card-body">
-                            <h5 className="card-title text-primary">
-                              {nft.metadata.name}
-                            </h5>
-                          </div>
-                    </div>*/}
+                        <h3> {nft.metadata.name}</h3>
                       </div>
                     ))
                   ) : (

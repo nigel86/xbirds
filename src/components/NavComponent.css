@@ -13,7 +13,6 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
   font-size: 14px; /* Smaller font size */
   padding: 8px 16px; /* Reduce padding for smaller size */
-  font-family: "Playfair Display", serif;
 }
 
 .nav-section .walletbtn:hover {

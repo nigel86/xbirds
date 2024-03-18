@@ -50,7 +50,7 @@ const MintComponent: React.FC = () => {
   const { data: claimIneligibility, isLoading: isClaimIneligibilityLoading } =
     useClaimIneligibilityReasons(contract, {
       walletAddress: address || "",
-      quantity: mintQuantity,
+      quantity: 1, //mintQuantity, dont want to reload
     });
 
   const formatPrice = () => {
@@ -157,7 +157,7 @@ const MintComponent: React.FC = () => {
               <div>
                 <span className="badge bg-dark text-light p-1 my-3">
                   You are eligible to mint ·
-                  {`(Max claimable: ${maxClaimable} per wallet)`}
+                  {`( Max claimable: ${maxClaimable} per wallet)`}
                 </span>
               </div>
             </div>
