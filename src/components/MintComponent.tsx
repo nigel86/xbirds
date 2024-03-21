@@ -127,8 +127,8 @@ const MintComponent: React.FC = () => {
 
       <ToastContainer
         className="p-3"
-        position="middle-end"
-        style={{ zIndex: 1 }}
+        position="bottom-end"
+        style={{ zIndex: 100000 }}
       >
         <Toast show={showA} onClose={() => setShowA(false)}>
           <Toast.Header>
