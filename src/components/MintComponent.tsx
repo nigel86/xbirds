@@ -10,10 +10,11 @@ import {
   //MediaRenderer,
   useClaimIneligibilityReasons,
 } from "@thirdweb-dev/react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { ethers } from "ethers";
 import { CONTRACT_ADDRESS } from "../consts/address";
 import "./MintComponent.css";
+import { Toast, ToastContainer } from "react-bootstrap";
 
 const MintComponent: React.FC = () => {
   const address = useAddress();
@@ -86,6 +87,10 @@ const MintComponent: React.FC = () => {
     }
   };
 
+  const [showA, setShowA] = useState(false);
+
+  const [toastMessage, setToastMessage] = useState<string>("");
+
   return (
     <div className="container mint-section">
       <div className="row my-4">
@@ -120,6 +125,19 @@ const MintComponent: React.FC = () => {
         </div>
       </div>
 
+      <ToastContainer
+        className="p-3"
+        position="middle-end"
+        style={{ zIndex: 1 }}
+      >
+        <Toast show={showA} onClose={() => setShowA(false)}>
+          <Toast.Header>
+            <strong className="me-auto">XBirds</strong>
+          </Toast.Header>
+          <Toast.Body className={"text-dark"}>{toastMessage}</Toast.Body>
+        </Toast>
+      </ToastContainer>
+
       {address ? (
         !isClaimIneligibilityLoading ? (
           claimIneligibility?.length! > 0 ? (
@@ -143,6 +161,18 @@ const MintComponent: React.FC = () => {
                   className="btn btn-mint"
                   contractAddress={CONTRACT_ADDRESS}
                   action={(contract) => contract.erc721.claim(mintQuantity)}
+                  onSubmit={() => {
+                    setShowA(true);
+                    setToastMessage("Minting");
+                  }}
+                  onError={(error) => {
+                    setShowA(true);
+                    setToastMessage(error.message.slice(70, 500));
+                  }}
+                  onSuccess={() => {
+                    setShowA(true);
+                    setToastMessage("Minting success!");
+                  }}
                 >
                   Mint {mintQuantity}
                 </Web3Button>
