@@ -22,20 +22,6 @@ const NavComponent = () => {
             />
           </a>
 
-          <ul className="navbar-nav">
-            {address && (
-              <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  aria-current="page"
-                  href={`/profile/${address}`}
-                >
-                  {/* My birds */}
-                </a>
-              </li>
-            )}
-          </ul>
-
           <ConnectWallet
             className={"walletbtn"}
             btnTitle="Connect Wallet"
@@ -56,7 +42,7 @@ const NavComponent = () => {
               return (
                 <div className="d-flex align-items-center">
                   <a
-                    href={`/profile/${address}`}
+                    // href={`/profile/${address}`}
                     className="btn walletbtn me-3"
                   >
                     My XBirds

@@ -18,7 +18,6 @@ function App() {
     <main>
       <NavComponent />
       <MainComponent />
-
       <IntroComponent />
       <FeatureComponent />
       <StoryComponent />
