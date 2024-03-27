@@ -1,4 +1,5 @@
 import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
+
 import "./NavComponent.css";
 
 const NavComponent = () => {
@@ -29,33 +30,42 @@ const NavComponent = () => {
                   aria-current="page"
                   href={`/profile/${address}`}
                 >
-                  My birds
+                  {/* My birds */}
                 </a>
               </li>
             )}
           </ul>
-          <div>
-            <ConnectWallet
-              className={"walletbtn"}
-              btnTitle="Connect Wallet"
-              theme={"dark"}
-              switchToActiveChain={true}
-              modalSize={"wide"}
-              modalTitle={"Select Method"}
-              welcomeScreen={{
-                img: {
-                  src: "assets/img/wallet-connect.png",
-                  width: 250,
-                  height: 250,
-                },
-                title: "Your gateway to the XBirds World",
-              }}
-              modalTitleIconUrl={"assets/logo/xbirds.png"}
-              detailsBtn={() => {
-                return <button className={"walletbtn me-4"}>My Profile</button>;
-              }}
-            />
-          </div>
+
+          <ConnectWallet
+            className={"walletbtn"}
+            btnTitle="Connect Wallet"
+            theme={"dark"}
+            switchToActiveChain={true}
+            modalSize={"wide"}
+            modalTitle={"Select Method"}
+            welcomeScreen={{
+              img: {
+                src: "assets/img/wallet-connect.png",
+                width: 250,
+                height: 250,
+              },
+              title: "Your gateway to the XBirds World",
+            }}
+            modalTitleIconUrl={"assets/logo/xbirds.png"}
+            detailsBtn={() => {
+              return (
+                <div className="d-flex align-items-center">
+                  <a
+                    href={`/profile/${address}`}
+                    className="btn walletbtn me-3"
+                  >
+                    My XBirds
+                  </a>
+                  <button className={"walletbtn me-4"}>My Wallet</button>
+                </div>
+              );
+            }}
+          />
         </div>
       </nav>
     </div>
