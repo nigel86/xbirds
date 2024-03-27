@@ -1,9 +1,24 @@
-//import CountdownComponent from "./CountdownComponent";
+import CountdownComponent from "./CountdownComponent";
 import MintComponent from "./MintComponent";
 import "./MainComponent.css";
+import React, { useState, useEffect } from "react";
 
 const MainComponent: React.FC = () => {
-  // const beforeMintPeriod = false;
+  const [showCountdown, setShowCountdown] = useState(true);
+
+  useEffect(() => {
+    const targetDate = new Date("2024-03-27T23::00+08:00"); // May 1, 2024, in UTC+8 timezone
+
+    const intervalId = setInterval(() => {
+      const currentDate = new Date();
+      if (currentDate >= targetDate) {
+        setShowCountdown(false);
+        clearInterval(intervalId); // Stop the interval after the target date is reached
+      }
+    }, 1000); // Check every second
+
+    return () => clearInterval(intervalId); // Clean up the interval on component unmount
+  }, []);
 
   return (
     <div className="masthead-section" id="masthead-section">
@@ -13,43 +28,7 @@ const MainComponent: React.FC = () => {
             <h1 className="display-1 fw-bold text-uppercase my-5">
               The XBirds
             </h1>
-
-            {/* <div id="test" className="carousel slide" data-bs-ride="carousel">
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <CountdownComponent />
-                </div>
-                <div className="carousel-item">
-                  <MintComponent />
-                </div>
-              </div>
-              <button
-                className="carousel-control-prev"
-                type="button"
-                data-bs-target="#test"
-                data-bs-slide="prev"
-              >
-                <span
-                  className="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span className="visually-hidden">Previous</span>
-              </button>
-              <button
-                className="carousel-control-next"
-                type="button"
-                data-bs-target="#test"
-                data-bs-slide="next"
-              >
-                <span
-                  className="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span className="visually-hidden">Next</span>
-              </button>
-            </div> */}
-            <MintComponent />
-            {/* {beforeMintPeriod ? <CountdownComponent /> : <MintComponent />} */}
+            {showCountdown ? <CountdownComponent /> : <MintComponent />}
           </div>
         </div>
       </div>
