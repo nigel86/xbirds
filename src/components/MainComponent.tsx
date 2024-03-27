@@ -4,22 +4,26 @@ import "./MainComponent.css";
 import React, { useState, useEffect } from "react";
 
 const MainComponent: React.FC = () => {
-  const [showCountdown, setShowCountdown] = useState(true);
+  const [renderComponent, setRenderComponent] = useState<JSX.Element | null>(
+    null
+  );
+  const [shouldCheckDate, setShouldCheckDate] = useState(true);
 
   useEffect(() => {
-    const targetDate = new Date("2024-03-27T23:35:00+08:00"); // May 1, 2024, in UTC+8 timezone
+    const targetDate = new Date("2024-03-27T23:53:00+08:00");
 
     const intervalId = setInterval(() => {
       const currentDate = new Date();
-      if (currentDate >= targetDate) {
-        setShowCountdown(false);
-        clearInterval(intervalId); // Stop the interval after the target date is reached
+      if (currentDate >= targetDate && shouldCheckDate) {
+        setRenderComponent(<MintComponent />);
+        setShouldCheckDate(false);
+        clearInterval(intervalId);
       } else {
-        console.log(currentDate.getTime);
+        setRenderComponent(<CountdownComponent />);
       }
-    }, 1000); // Check every second
+    }, 1000);
 
-    return () => clearInterval(intervalId); // Clean up the interval on component unmount
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
@@ -30,7 +34,7 @@ const MainComponent: React.FC = () => {
             <h1 className="display-1 fw-bold text-uppercase my-5">
               The XBirds
             </h1>
-            {showCountdown ? <CountdownComponent /> : <MintComponent />}
+            {renderComponent}
           </div>
         </div>
       </div>
