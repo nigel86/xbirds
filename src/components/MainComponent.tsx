@@ -7,13 +7,15 @@ const MainComponent: React.FC = () => {
   const [showCountdown, setShowCountdown] = useState(true);
 
   useEffect(() => {
-    const targetDate = new Date("2024-03-27T23::00+08:00"); // May 1, 2024, in UTC+8 timezone
+    const targetDate = new Date("2024-03-27T23:35:00+08:00"); // May 1, 2024, in UTC+8 timezone
 
     const intervalId = setInterval(() => {
       const currentDate = new Date();
       if (currentDate >= targetDate) {
         setShowCountdown(false);
         clearInterval(intervalId); // Stop the interval after the target date is reached
+      } else {
+        console.log(currentDate.getTime);
       }
     }, 1000); // Check every second
 
