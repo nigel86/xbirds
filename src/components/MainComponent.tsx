@@ -10,7 +10,7 @@ const MainComponent: React.FC = () => {
   const [shouldCheckDate, setShouldCheckDate] = useState(true);
 
   useEffect(() => {
-    const targetDate = new Date("2024-03-27T23:53:00+08:00");
+    const targetDate = new Date("2024-03-28T00:00:00+08:00");
 
     const intervalId = setInterval(() => {
       const currentDate = new Date();
