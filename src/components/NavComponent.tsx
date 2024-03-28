@@ -41,10 +41,7 @@ const NavComponent = () => {
             detailsBtn={() => {
               return (
                 <div className="d-flex align-items-center">
-                  <a
-                    // href={`/profile/${address}`}
-                    className="btn walletbtn me-3"
-                  >
+                  <a href={`/birds/${address}`} className="btn walletbtn me-3">
                     My XBirds
                   </a>
                   <button className={"walletbtn me-4"}>My Wallet</button>
