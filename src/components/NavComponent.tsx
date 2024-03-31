@@ -1,9 +1,9 @@
-import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
+import { ConnectWallet } from "@thirdweb-dev/react";
 
 import "./NavComponent.css";
 
 const NavComponent = () => {
-  const address = useAddress();
+  //const address = useAddress();
   return (
     <div>
       <nav
@@ -41,10 +41,10 @@ const NavComponent = () => {
             detailsBtn={() => {
               return (
                 <div className="d-flex align-items-center">
-                  <a
+                  {/*<a
                     href={`/birds/${address}`}
                     className="btn walletbtn me-3"
-                  ></a>
+              >My XBirds</a>*/}
                   <button className={"walletbtn me-4"}>My Wallet</button>
                 </div>
               );
