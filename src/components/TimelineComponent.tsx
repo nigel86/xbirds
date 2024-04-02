@@ -33,7 +33,7 @@ const TimelineComponent: React.FC = () => {
                   </p>
                 </div>
               </div>
-              <div className="timeline-step">
+              {/* <div className="timeline-step">
                 <div
                   className="timeline-content"
                   data-toggle="popover"
@@ -49,7 +49,7 @@ const TimelineComponent: React.FC = () => {
                     EARLYBIRD SALE
                   </p>
                 </div>
-              </div>
+              </div> */}
               <div className="timeline-step">
                 <div
                   className="timeline-content"

@@ -11,7 +11,7 @@ import TimelineComponent from "./components/TimelineComponent";
 import TeamComponent from "./components/TeamComponent";
 import JoinComponent from "./components/JoinComponent";
 import FooterComponent from "./components/FooterComponent";
-import WhitelistModalComponent from "./components/WhitelistModalComponent";
+//import WhitelistModalComponent from "./components/WhitelistModalComponent";
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
       <TeamComponent />
       <JoinComponent />
       <FooterComponent />
-      <WhitelistModalComponent />
+      {/* <WhitelistModalComponent />  */}
     </main>
   );
 }

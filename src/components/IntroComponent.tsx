@@ -76,11 +76,11 @@ const IntroComponent = () => {
             <h1 className="display-3 fw-bold text-primary mb-0">Ξ 0.01</h1>
             <h6 className="text-white-50">Gitbook for detail</h6>
           </div>
-          <div className="col-12 col-md-4 text-center mb-4">
+          {/* <div className="col-12 col-md-4 text-center mb-4">
             <h6 className="mb-0">Earlybird Price</h6>
             <h1 className="display-3 fw-bold text-primary mb-0">Ξ 0.015</h1>
             <h6 className="text-white-50">Only 24 hours!</h6>
-          </div>
+          </div> */}
           <div className="col-12 col-md-4 text-center mb-4">
             <h6 className="mb-0">Public Price</h6>
             <h1 className="display-3 fw-bold text-primary mb-0">Ξ 0.02</h1>
