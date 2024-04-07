@@ -186,23 +186,23 @@ const MyBirdComponent = () => {
             <h1>Please Connect Your Wallet.</h1>
           </div>
         )}
-      </div>
 
-      {ownedNFTs?.length! > 0 && (
-        <div className="d-flex justify-content-center mt-5">
-          <Pagination>
-            <Pagination.Prev
-              onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
-            />
-            {renderPaginationItems()}
-            <Pagination.Next
-              onClick={() =>
-                setCurrentPage((prev) => Math.min(prev + 1, totalPages))
-              }
-            />
-          </Pagination>
-        </div>
-      )}
+        {ownedNFTs?.length! > 0 && (
+          <div className="d-flex justify-content-center mt-5">
+            <Pagination>
+              <Pagination.Prev
+                onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+              />
+              {renderPaginationItems()}
+              <Pagination.Next
+                onClick={() =>
+                  setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+                }
+              />
+            </Pagination>
+          </div>
+        )}
+      </div>
     </section>
   );
 };
