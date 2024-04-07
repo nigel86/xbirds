@@ -30,6 +30,18 @@ const MyBirdComponent = () => {
 
   const totalPages = Math.ceil((ownedNFTs?.length || 0) / itemsPerPage);
 
+  const getHeightClassForMobile = () => {
+    if (!address || (ownedNFTs?.length || 0) <= 2) {
+      return "mybird-section-2";
+    } else if (!address || (ownedNFTs?.length || 0) <= 4) {
+      return "mybird-section-4";
+    } else if (!address || (ownedNFTs?.length || 0) <= 6) {
+      return "mybird-section-6";
+    } else {
+      return "mybird-section-8";
+    }
+  };
+
   const renderPaginationItems = () => {
     const pages = [];
     if (totalPages <= 3) {
@@ -129,7 +141,9 @@ const MyBirdComponent = () => {
   };
 
   return (
-    <section className="mybird-section bg-dark d-flex align-items-center">
+    <section
+      className={`mybird-section bg-dark d-flex align-items-center ${getHeightClassForMobile()}`}
+    >
       <div className="container mt-5">
         {address ? (
           <>

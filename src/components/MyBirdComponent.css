@@ -1,5 +1,14 @@
 @media (min-width: 1px) {
-  .mybird-section {
+  .mybird-section-2 {
+    height: 80vh;
+  }
+  .mybird-section-4 {
+    height: 110vh;
+  }
+  .mybird-section-6 {
+    height: 130vh;
+  }
+  .mybird-section-8 {
     height: 150vh;
   }
 }
