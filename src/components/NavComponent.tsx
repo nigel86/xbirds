@@ -12,7 +12,7 @@ const NavComponent = () => {
         id="nav-section"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
+          <a className="navbar-brand" href="/">
             <img
               src="assets/logo/xbirds.png"
               alt="Logo"
@@ -21,35 +21,32 @@ const NavComponent = () => {
               className="d-inline-block align-text-top"
             />
           </a>
+          <div className="d-flex align-items-center">
+            <a href="/mybirds" className="btn walletbtn me-3">
+              My XBirds
+            </a>
 
-          <ConnectWallet
-            className={"walletbtn"}
-            btnTitle="Connect Wallet"
-            theme={"dark"}
-            switchToActiveChain={true}
-            modalSize={"wide"}
-            modalTitle={"Select Method"}
-            welcomeScreen={{
-              img: {
-                src: "assets/img/wallet-connect.png",
-                width: 250,
-                height: 250,
-              },
-              title: "Your gateway to the XBirds World",
-            }}
-            modalTitleIconUrl={"assets/logo/xbirds.png"}
-            detailsBtn={() => {
-              return (
-                <div className="d-flex align-items-center">
-                  {/*<a
-                    href={`/birds/${address}`}
-                    className="btn walletbtn me-3"
-              >My XBirds</a>*/}
-                  <button className={"walletbtn me-4"}>My Wallet</button>
-                </div>
-              );
-            }}
-          />
+            <ConnectWallet
+              className={"walletbtn"}
+              btnTitle="Connect Wallet"
+              theme={"dark"}
+              switchToActiveChain={true}
+              modalSize={"wide"}
+              modalTitle={"Select Method"}
+              welcomeScreen={{
+                img: {
+                  src: "assets/img/wallet-connect.png",
+                  width: 250,
+                  height: 250,
+                },
+                title: "Your gateway to the XBirds World",
+              }}
+              modalTitleIconUrl={"assets/logo/xbirds.png"}
+              detailsBtn={() => {
+                return <button className={"walletbtn me-4"}>My Wallet</button>;
+              }}
+            />
+          </div>
         </div>
       </nav>
     </div>

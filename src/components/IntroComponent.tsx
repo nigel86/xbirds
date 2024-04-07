@@ -40,28 +40,28 @@ const IntroComponent = () => {
             <div className="row gx-3 gy-3">
               <div className="col-6 col-md-3 col-lg-6">
                 <img
-                  src="assets/intro/002.png"
+                  src="assets/intro/1.png"
                   className="img-thumbnail"
                   alt="..."
                 />
               </div>
               <div className="col-6 col-md-3 col-lg-6">
                 <img
-                  src="assets/intro/004.png"
+                  src="assets/intro/2.png"
                   className="img-thumbnail"
                   alt="..."
                 />
               </div>
               <div className="col-6 col-md-3 col-lg-6">
                 <img
-                  src="assets/intro/005.png"
+                  src="assets/intro/3.png"
                   className="img-thumbnail"
                   alt="..."
                 />
               </div>
               <div className="col-6 col-md-3 col-lg-6">
                 <img
-                  src="assets/intro/006.png"
+                  src="assets/intro/4.png"
                   className="img-thumbnail"
                   alt="..."
                 />

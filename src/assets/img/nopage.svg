@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <style>
+    .symbol {
+      fill: white;
+      stroke: white;
+      stroke-width: 10;
+    }
+  </style>
+  <path class="symbol" d="M200,60a80,80 0 1,0 80,80A80,80 0 0,0 200,60Zm0,140a60,60 0 1,1 60-60A60,60 0 0,1 200,200Zm10,40v40h-20v-40Zm0-200V100h-20V40Z" />
+</svg>
