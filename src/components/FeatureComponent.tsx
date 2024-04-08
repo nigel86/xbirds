@@ -88,7 +88,7 @@ const FeatureComponent = () => {
                   />
                 </div>
                 <div className="col-9">
-                  <h4>Thrive with Optimism</h4>
+                  <h4>Thrive with Web3</h4>
                   <p>
                     Ride the wave of growth on the Optimism chain while
                     nurturing its NFT ecosystem.

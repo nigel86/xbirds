@@ -103,7 +103,7 @@ const JoinComponent: React.FC = () => {
             </a>
 
             <a
-              href="op scan explorer"
+              href="https://basescan.org"
               className="join-icon join-gitbook-icon mx-4"
               target="_blank"
             >

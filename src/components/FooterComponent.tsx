@@ -9,9 +9,9 @@ const FooterComponent: React.FC = () => {
             BUIDL with <i className="fa-solid fa-heart"></i> on
             <img
               className="mx-2"
-              src="assets/logo/op.svg"
+              src="assets/logo/base.svg"
               alt="External Logo"
-              width="90"
+              width="60"
             />
           </span>
         </p>

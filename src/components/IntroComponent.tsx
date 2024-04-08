@@ -12,9 +12,9 @@ const IntroComponent = () => {
             <h1 className="display-3 mb-4">What is XBirds?</h1>
             <p className="mb-4">
               XBirds is a collection of 5,000 meticulously hand-drawn and
-              distinctive NFT birds residing on the Optimism blockchain. Beyond
-              the mesmerizing art, each XBird offers exclusive access to a realm
-              of abundance and rewards. Join us on this remarkable journey and
+              distinctive NFT birds residing on the BASE blockchain. Beyond the
+              mesmerizing art, each XBird offers exclusive access to a realm of
+              abundance and rewards. Join us on this remarkable journey and
               become part of the XBirds saga!
             </p>
 
