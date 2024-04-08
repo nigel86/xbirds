@@ -90,7 +90,7 @@ const FeatureComponent = () => {
                 <div className="col-9">
                   <h4>Thrive with Web3</h4>
                   <p>
-                    Ride the wave of growth on the Optimism chain while
+                    Ride the wave of growth on the OP's superchain while
                     nurturing its NFT ecosystem.
                   </p>
                   <hr className="mb-1" />
