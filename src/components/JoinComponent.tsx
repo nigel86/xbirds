@@ -95,7 +95,7 @@ const JoinComponent: React.FC = () => {
             </a>
 
             <a
-              href="opensea"
+              href="https://opensea.io"
               className="join-icon join-gitbook-icon mx-4"
               target="_blank"
             >
