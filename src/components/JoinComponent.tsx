@@ -21,37 +21,36 @@ const JoinComponent: React.FC = () => {
               </a>
               <a
                 href="https://twitter.com/XBirdsDAO"
-                className="join-icon join-twitter-icon mx-4"
+                className="join-icon mx-4"
                 target="_blank"
               >
                 <img src="assets/logo/x-white.png" alt="Logo" width="40" />
               </a>
               <a
                 href="https://galxe.com/XBirds"
-                className="join-icon join-galxe-icon mx-4"
+                className="join-icon jmx-4"
                 target="_blank"
               >
                 <img src="assets/logo/galxe.svg" alt="Logo" width="50" />
               </a>
               <a
                 href="https://xbirds.gitbook.io/xbirds-docs/"
-                className="join-icon join-gitbook-icon mx-4"
+                className="join-icon mx-4"
                 target="_blank"
               >
                 <img src="assets/logo/gitbook.svg" alt="Logo" width="50" />
               </a>
-              {/* below need change */}
               <a
-                href="opensea"
-                className="join-icon join-gitbook-icon mx-4"
+                href="https://opensea.io"
+                className="join-icon mx-4"
                 target="_blank"
               >
                 <img src="assets/logo/opensea.svg" alt="Logo" width="50" />
               </a>
 
               <a
-                href="op scan explorer"
-                className="join-icon join-gitbook-icon mx-4"
+                href="https://basescan.org"
+                className="join-icon mx-4"
                 target="_blank"
               >
                 <img src="assets/logo/etherscan.svg" alt="Logo" width="50" />
@@ -96,7 +95,7 @@ const JoinComponent: React.FC = () => {
 
             <a
               href="https://opensea.io"
-              className="join-icon join-gitbook-icon mx-4"
+              className="join-icon mx-4"
               target="_blank"
             >
               <img src="assets/logo/opensea.svg" alt="Logo" width="50" />
@@ -104,7 +103,7 @@ const JoinComponent: React.FC = () => {
 
             <a
               href="https://basescan.org"
-              className="join-icon join-gitbook-icon mx-4"
+              className="join-icon mx-4"
               target="_blank"
             >
               <img src="assets/logo/etherscan.svg" alt="Logo" width="50" />
