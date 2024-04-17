@@ -11,8 +11,8 @@ const TeamComponent: React.FC = () => {
             creativity and imagination.
           </p>
         </div>
-        <div className="row py-5">
-          <div className="col-6 col-md-3 mb-3">
+        <div className="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-5 py-5">
+          <div className="col mb-4">
             <div className="profile">
               <img
                 src="assets/team/matt-small.png"
@@ -41,7 +41,7 @@ const TeamComponent: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-3">
+          <div className="col mb-4">
             <div className="profile">
               <img
                 src="assets/team/david-small.png"
@@ -70,7 +70,7 @@ const TeamComponent: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-3">
+          <div className="col mb-4">
             <div className="profile">
               <img
                 src="assets/team/nigel-small.png"
@@ -99,7 +99,7 @@ const TeamComponent: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-3">
+          <div className="col mb-4">
             <div className="profile">
               <img
                 src="assets/team/rnv-small.png"
@@ -120,6 +120,35 @@ const TeamComponent: React.FC = () => {
                   <a
                     className="mx-1 text-white"
                     href="https://twitter.com/RinovMRN"
+                    target="_blank"
+                  >
+                    <i className="fa-brands fa-x-twitter"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col mb-4">
+            <div className="profile">
+              <img
+                src="assets/team/nan-small.jpg"
+                className="img-fluid"
+                alt=""
+              />
+              <div className="profile-detail">
+                <div>
+                  <p className="my-0">NAN</p>
+                </div>
+                <div>
+                  <p className="d-none d-sm-block my-0">Collab Lead</p>
+                  <p className="d-block d-sm-none my-0 smallest-text">
+                    Collab Lead
+                  </p>
+                </div>
+                <div>
+                  <a
+                    className="mx-1 text-white"
+                    href="https://twitter.com/SouthG268"
                     target="_blank"
                   >
                     <i className="fa-brands fa-x-twitter"></i>
