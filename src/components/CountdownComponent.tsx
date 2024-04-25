@@ -11,11 +11,12 @@ const CountdownComponent = () => {
 
   const targetDate = new Date();
   targetDate.setUTCFullYear(2024);
-  targetDate.setUTCMonth(4); // 4 represents May (0-indexed)
-  targetDate.setUTCDate(1); // 1 represents the day of the month
-  targetDate.setUTCHours(5);
-  targetDate.setUTCMinutes(0);
-  targetDate.setUTCSeconds(0);
+  targetDate.setUTCMonth(4); // Months are zero-based, so 4 is May
+  targetDate.setUTCDate(1); // Set the day to 1st
+  targetDate.setUTCHours(13); // Set the hour to 13 (1:00 PM UTC)
+  targetDate.setUTCMinutes(0); // Set the minutes to 0
+  targetDate.setUTCSeconds(0); // Set the seconds to 0
+  targetDate.setUTCMilliseconds(0); // Set the milliseconds to 0
 
   const generateTimeDisplay = (): TimeDisplayValuesType => {
     const now = new Date();
