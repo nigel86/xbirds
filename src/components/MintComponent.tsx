@@ -195,9 +195,11 @@ const MintComponent: React.FC = () => {
         </div>
       )}
       <div>
-        <span className="badge bg-dark text-light p-1 my-3">
-          {`Max claimable: ${maxClaimable} per wallet`}
-        </span>
+        {maxClaimable <= 10 && (
+          <span className="badge bg-dark text-light p-1 my-3">
+            {`Max claimable: ${maxClaimable} per wallet`}
+          </span>
+        )}
       </div>
     </div>
   );
