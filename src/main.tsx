@@ -10,7 +10,7 @@ import {
   zerionWallet,
   rainbowWallet,
 } from "@thirdweb-dev/react";
-import { BaseSepoliaTestnet } from "@thirdweb-dev/chains";
+import { Base } from "@thirdweb-dev/chains";
 
 const container: HTMLElement | null = document.getElementById("root");
 
@@ -19,7 +19,7 @@ if (container) {
   root.render(
     <React.StrictMode>
       <ThirdwebProvider
-        activeChain={BaseSepoliaTestnet}
+        activeChain={Base}
         clientId="909ef598c733d782d3175916eea62c24"
         supportedWallets={[
           metamaskWallet({ recommended: true }),
