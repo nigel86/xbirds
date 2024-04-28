@@ -24,8 +24,8 @@ const WhitelistModalComponent = () => {
             <p className="h6 my-md-0">
               {address
                 ? isWhitelisted
-                  ? "Congratulations 🎉🥳 You are on our Whitelist! Minting is avaliable on 1 May 2024."
-                  : "Sorry 🥺🥺 You are not eligible for Whitelist sale. Join us 2 May 2024 for Earlybird Sale."
+                  ? "Congratulations 🎉🥳 You are on our Whitelist! Whitelist mint is avaliable on 1 May 2024 13:00 UTC."
+                  : "Sorry 🥺🥺 You are not eligible for Whitelist sale. Join us 1 May 2024 16:00 UTC for Public Sale."
                 : "Connect wallet to check Whitelist Eligibility."}
             </p>
             <span className="flex-grow-1"></span>

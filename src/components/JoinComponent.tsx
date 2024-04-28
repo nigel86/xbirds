@@ -10,7 +10,7 @@ const JoinComponent: React.FC = () => {
             <div className="col-md-6 d-flex justify-content-center align-items-center">
               <a
                 href="https://discord.gg/gbvDRJsKDc"
-                className="join-icon join-discord-icon mx-4"
+                className="join-icon mx-4"
                 target="_blank"
               >
                 <img
@@ -28,7 +28,7 @@ const JoinComponent: React.FC = () => {
               </a>
               <a
                 href="https://galxe.com/XBirds"
-                className="join-icon jmx-4"
+                className="join-icon mx-4"
                 target="_blank"
               >
                 <img src="assets/logo/galxe.svg" alt="Logo" width="50" />
@@ -49,7 +49,7 @@ const JoinComponent: React.FC = () => {
               </a>
 
               <a
-                href="https://basescan.org"
+                href="https://basescan.org/address/0xC4D59ff92253423379166cc0901923B4F15e9f1a"
                 className="join-icon mx-4"
                 target="_blank"
               >
@@ -95,15 +95,15 @@ const JoinComponent: React.FC = () => {
 
             <a
               href="https://opensea.io"
-              className="join-icon mx-4"
+              className="join-icon p-4"
               target="_blank"
             >
               <img src="assets/logo/opensea.svg" alt="Logo" width="50" />
             </a>
 
             <a
-              href="https://basescan.org"
-              className="join-icon mx-4"
+              href="https://basescan.org/address/0xC4D59ff92253423379166cc0901923B4F15e9f1a"
+              className="join-icon p-4"
               target="_blank"
             >
               <img src="assets/logo/etherscan.svg" alt="Logo" width="50" />
