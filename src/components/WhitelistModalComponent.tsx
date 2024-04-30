@@ -14,7 +14,7 @@ const WhitelistModalComponent = () => {
 
   // Check if the address is in the whitelist
   const isWhitelisted =
-    address !== undefined ? Whitelist.includes(address) : false;
+    address !== undefined ? Whitelist.includes(address.toLowerCase()) : false;
 
   return (
     <section className="modal-section">

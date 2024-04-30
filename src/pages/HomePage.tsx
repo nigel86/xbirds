@@ -6,7 +6,7 @@ import EvolutionComponent from "../components/EvolutionComponent";
 import TimelineComponent from "../components/TimelineComponent";
 import TeamComponent from "../components/TeamComponent";
 import JoinComponent from "../components/JoinComponent";
-// import WhitelistModalComponent from "../components/WhitelistModalComponent";
+import WhitelistModalComponent from "../components/WhitelistModalComponent";
 
 const HomePage: React.FC = () => {
   return (
@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
       <TimelineComponent />
       <TeamComponent />
       <JoinComponent />
-      {/* <WhitelistModalComponent /> */}
+      <WhitelistModalComponent />
     </>
   );
 };
