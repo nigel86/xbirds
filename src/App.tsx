@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import MyBirdsPage from "./pages/MyBirdsPage";
 import FooterComponent from "./components/FooterComponent";
-import TestPage from "./pages/TestPage";
+// import TestPage from "./pages/TestPage";
 import NoPage from "./pages/NoPage";
 import NavComponent from "./components/NavComponent";
 
