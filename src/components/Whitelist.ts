@@ -5,8 +5,8 @@ const csvData: string =
 const whitelist: string[] = csvData.split(",");
 
 // console.log(whitelist);
-console.log(
-  whitelist.includes("0x78ec7E48F3914b3C529a72e3A20275621ADE8a80".toLowerCase())
-);
+// console.log(
+//   whitelist.includes("0x78ec7E48F3914b3C529a72e3A20275621ADE8a80".toLowerCase())
+// );
 
 export default whitelist;
