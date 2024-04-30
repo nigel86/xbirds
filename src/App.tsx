@@ -17,11 +17,10 @@ function App() {
         <Routes>
           <Route index element={<HomePage />} />
           <Route path="/mybirds" element={<MyBirdsPage />} />
-          <Route path="/testmintbymetaodys" element={<TestPage />} />
+          {/* <Route path="/testmintbymetaodys" element={<TestPage />} /> */}
           <Route path="/*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
-
       <FooterComponent />
     </main>
   );
