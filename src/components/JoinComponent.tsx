@@ -41,7 +41,7 @@ const JoinComponent: React.FC = () => {
                 <img src="assets/logo/gitbook.svg" alt="Logo" width="50" />
               </a>
               <a
-                href="https://opensea.io/collection/xbirds-on-base"
+                href="https://opensea.io/collection/xbirds-base"
                 className="join-icon mx-4"
                 target="_blank"
               >
@@ -94,7 +94,7 @@ const JoinComponent: React.FC = () => {
             </a>
 
             <a
-              href="https://opensea.io"
+              href="https://opensea.io/collection/xbirds-base"
               className="join-icon p-4"
               target="_blank"
             >
