@@ -72,7 +72,7 @@ const IntroComponent = () => {
 
         <div className="row pt-4 my-4 justify-content-center">
           <div className="col-12 col-md-4 text-center mb-4">
-            <h6 className="mb-0">Whitelist Price</h6>
+            <h6 className="mb-0">Whitelist</h6>
             <h1 className="display-3 fw-bold text-primary mb-0">
               Whitelist Phase
             </h1>
