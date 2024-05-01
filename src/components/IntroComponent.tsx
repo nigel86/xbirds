@@ -73,12 +73,14 @@ const IntroComponent = () => {
         <div className="row pt-4 my-4 justify-content-center">
           <div className="col-12 col-md-4 text-center mb-4">
             <h6 className="mb-0">Whitelist Price</h6>
-            <h1 className="display-3 fw-bold text-primary mb-0">0.005 ETH</h1>
-            <h6 className="text-white-50">3 hours</h6>
+            <h1 className="display-3 fw-bold text-primary mb-0">
+              Whitelist Phase
+            </h1>
+            <h6 className="text-white-50">Ended</h6>
           </div>
           <div className="col-12 col-md-4 text-center mb-4">
             <h6 className="mb-0">Public Price</h6>
-            <h1 className="display-3 fw-bold text-primary mb-0">0.008 ETH</h1>
+            <h1 className="display-3 fw-bold text-primary mb-0">0.002 ETH</h1>
             <h6 className="text-white-50">12 hours</h6>
           </div>
         </div>
