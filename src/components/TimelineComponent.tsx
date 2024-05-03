@@ -60,8 +60,8 @@ const TimelineComponent: React.FC = () => {
                   data-original-title="2004"
                 >
                   <div className="inner-circle"></div>
-                  <p className="h6 mt-3 mb-1">2 May 2024 10:00 UTC (TBA)</p>
-                  <p className="h6 text-white-50 mb-0 mb-lg-0">REVEAL PARTY</p>
+                  <p className="h6 mt-3 mb-1">5 May 2024 14:00 UTC (TBA)</p>
+                  <p className="h6 text-white-50 mb-0 mb-lg-0">REVEAL</p>
                 </div>
               </div>
             </div>
