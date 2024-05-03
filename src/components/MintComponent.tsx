@@ -34,19 +34,19 @@ const MintComponent: React.FC = () => {
 
   const maxClaimable = parseInt(activeClaimPhase?.maxClaimablePerWallet || "0");
 
-  const [mintQuantity, setMintQuantity] = useState(1);
+  // const [mintQuantity, setMintQuantity] = useState(1);
 
-  const increment = () => {
-    if (mintQuantity < maxClaimable) {
-      setMintQuantity(mintQuantity + 1);
-    }
-  };
+  // const increment = () => {
+  //   if (mintQuantity < maxClaimable) {
+  //     setMintQuantity(mintQuantity + 1);
+  //   }
+  // };
 
-  const decrement = () => {
-    if (mintQuantity > 1) {
-      setMintQuantity(mintQuantity - 1);
-    }
-  };
+  // const decrement = () => {
+  //   if (mintQuantity > 1) {
+  //     setMintQuantity(mintQuantity - 1);
+  //   }
+  // };
 
   const { data: claimIneligibility, isLoading: isClaimIneligibilityLoading } =
     useClaimIneligibilityReasons(contract, {
@@ -149,18 +149,20 @@ const MintComponent: React.FC = () => {
                 role="group"
                 aria-label="btn-group"
               >
-                <button
+                {/* <button
+                  disabled
                   type="button"
                   className="btn btn-mint"
                   onClick={decrement}
                 >
                   -
-                </button>
+                </button> */}
                 <Web3Button
                   type="button"
-                  className="btn btn-mint"
+                  className="btn btn-mint disabled"
                   contractAddress={CONTRACT_ADDRESS}
-                  action={(contract) => contract.erc721.claim(mintQuantity)}
+                  action={() => console.log()}
+                  // action={(contract) => contract.erc721.claim(mintQuantity)}
                   onSubmit={() => {
                     setShowA(true);
                     setToastMessage("Minting");
@@ -174,15 +176,26 @@ const MintComponent: React.FC = () => {
                     setToastMessage("Minting success!");
                   }}
                 >
-                  Mint {mintQuantity}
+                  Public Sale is over
                 </Web3Button>
-                <button
+
+                {/* <button
+                  disabled
                   type="button"
                   className="btn btn-mint"
                   onClick={increment}
                 >
                   +
-                </button>
+                </button> */}
+              </div>
+              <div>
+                <a
+                  href="https://opensea.io/collection/xbirds-base"
+                  className="btn btn-mint"
+                  target="_blank"
+                >
+                  Buy at Opensea
+                </a>
               </div>
             </div>
           )
@@ -191,7 +204,18 @@ const MintComponent: React.FC = () => {
         )
       ) : (
         <div>
-          <p>Connect wallet to mint!</p>
+          <button disabled type="button" className="btn btn-mint mb-3">
+            Public Sale is over
+          </button>
+          <div>
+            <a
+              href="https://opensea.io/collection/xbirds-base"
+              className="btn btn-mint"
+              target="_blank"
+            >
+              Buy at Opensea
+            </a>
+          </div>
         </div>
       )}
       <div>
