@@ -1,38 +1,38 @@
-import {
-  Web3Button,
-  useContract,
-  useAddress,
-  useTotalCount,
-  useTotalCirculatingSupply,
-  // useClaimNFT,
-  // useContractMetadata,
-  useActiveClaimConditionForWallet,
-  //MediaRenderer,
-  useClaimIneligibilityReasons,
-} from "@thirdweb-dev/react";
-import React, { useState } from "react";
-import { ethers } from "ethers";
-import { CONTRACT_ADDRESS } from "../consts/address";
+// import {
+//   Web3Button,
+//   useContract,
+//   useAddress,
+//   useTotalCount,
+//   useTotalCirculatingSupply,
+//   // useClaimNFT,
+//   // useContractMetadata,
+//   useActiveClaimConditionForWallet,
+//   //MediaRenderer,
+//   useClaimIneligibilityReasons,
+// } from "@thirdweb-dev/react";
+// import React, { useState } from "react";
+// import { ethers } from "ethers";
+// import { CONTRACT_ADDRESS } from "../consts/address";
 import "./MintComponent.css";
-import { Toast, ToastContainer } from "react-bootstrap";
+// import { Toast, ToastContainer } from "react-bootstrap";
 
 const MintComponent: React.FC = () => {
-  const address = useAddress();
-  const { contract } = useContract(CONTRACT_ADDRESS);
+  // const address = useAddress();
+  // const { contract } = useContract(CONTRACT_ADDRESS);
 
-  // const { data: contractMetadata, isLoading: isContractMetadataLoading } =
-  //   useContractMetadata(contract);
+  //  const { data: contractMetadata, isLoading: isContractMetadataLoading } =
+  //    useContractMetadata(contract);
 
-  const { data: activeClaimPhase, isLoading: isActiveClaimPhaseLoading } =
-    useActiveClaimConditionForWallet(contract, address);
+  // const { data: activeClaimPhase, isLoading: isActiveClaimPhaseLoading } =
+  //   useActiveClaimConditionForWallet(contract, address);
 
-  const { data: totalSupply, isLoading: isTotalSupplyLoading } =
-    useTotalCount(contract);
+  // const { data: totalSupply, isLoading: isTotalSupplyLoading } =
+  //   useTotalCount(contract);
 
-  const { data: totalClaimed, isLoading: isTotalClaimedLoading } =
-    useTotalCirculatingSupply(contract);
+  // const { data: totalClaimed, isLoading: isTotalClaimedLoading } =
+  //   useTotalCirculatingSupply(contract);
 
-  const maxClaimable = parseInt(activeClaimPhase?.maxClaimablePerWallet || "0");
+  // const maxClaimable = parseInt(activeClaimPhase?.maxClaimablePerWallet || "0");
 
   // const [mintQuantity, setMintQuantity] = useState(1);
 
@@ -48,52 +48,61 @@ const MintComponent: React.FC = () => {
   //   }
   // };
 
-  const { data: claimIneligibility, isLoading: isClaimIneligibilityLoading } =
-    useClaimIneligibilityReasons(contract, {
-      walletAddress: address || "",
-      quantity: 1, //mintQuantity, dont want to reload
-    });
+  // const { data: claimIneligibility, isLoading: isClaimIneligibilityLoading } =
+  //   useClaimIneligibilityReasons(contract, {
+  //     walletAddress: address || "",
+  //     quantity: 1, //mintQuantity, dont want to reload
+  //   });
 
-  const formatPrice = () => {
-    try {
-      if (activeClaimPhase?.price) {
-        return ethers.utils.formatUnits(activeClaimPhase.price);
-      }
-    } catch (error) {
-      console.error("Error formatting price:", error);
-      return "Invalid price";
-    }
-  };
+  // const formatPrice = () => {
+  //   try {
+  //     if (activeClaimPhase?.price) {
+  //       return ethers.utils.formatUnits(activeClaimPhase.price);
+  //     }
+  //   } catch (error) {
+  //     console.error("Error formatting price:", error);
+  //     return "Invalid price";
+  //   }
+  // };
 
-  const getTotalSupply = () => {
-    try {
-      if (totalSupply) {
-        return totalSupply.toNumber();
-      }
-    } catch (error) {
-      console.error("Error getting total supply:", error);
-      return "Invalid total supply";
-    }
-  };
+  // const getTotalSupply = () => {
+  //   try {
+  //     if (totalSupply) {
+  //       return totalSupply.toNumber();
+  //     }
+  //   } catch (error) {
+  //     console.error("Error getting total supply:", error);
+  //     return "Invalid total supply";
+  //   }
+  // };
 
-  const getTotalClaimed = () => {
-    try {
-      if (totalClaimed) {
-        return totalClaimed.toNumber();
-      }
-    } catch (error) {
-      console.error("Error getting total claimed:", error);
-      return "Invalid total claimed";
-    }
-  };
+  // const getTotalClaimed = () => {
+  //   try {
+  //     if (totalClaimed) {
+  //       return totalClaimed.toNumber();
+  //     }
+  //   } catch (error) {
+  //     console.error("Error getting total claimed:", error);
+  //     return "Invalid total claimed";
+  //   }
+  // };
 
-  const [showA, setShowA] = useState(false);
+  // const [showA, setShowA] = useState(false);
 
-  const [toastMessage, setToastMessage] = useState<string>("");
+  // const [toastMessage, setToastMessage] = useState<string>("");
 
   return (
     <div className="container mint-section">
-      <div className="row my-4">
+      <div>
+        <a
+          href="https://opensea.io/collection/xbirds-base"
+          className="btn btn-mint"
+          target="_blank"
+        >
+          Public Sale is over <br /> Buy at Opensea now
+        </a>
+      </div>
+      {/* <div className="row my-4">
         <div className="col bg-white bg-opacity-10 rounded p-3 m-2">
           {!isActiveClaimPhaseLoading && (
             <div>
@@ -136,7 +145,7 @@ const MintComponent: React.FC = () => {
           </Toast.Header>
           <Toast.Body className={"text-dark"}>{toastMessage}</Toast.Body>
         </Toast>
-      </ToastContainer>
+      </ToastContainer> 
 
       {address ? (
         !isClaimIneligibilityLoading ? (
@@ -149,14 +158,14 @@ const MintComponent: React.FC = () => {
                 role="group"
                 aria-label="btn-group"
               >
-                {/* <button
+                 <button
                   disabled
                   type="button"
                   className="btn btn-mint"
                   onClick={decrement}
                 >
                   -
-                </button> */}
+                </button> 
                 <Web3Button
                   type="button"
                   className="btn btn-mint disabled"
@@ -179,14 +188,14 @@ const MintComponent: React.FC = () => {
                   Public Sale is over
                 </Web3Button>
 
-                {/* <button
+                 <button
                   disabled
                   type="button"
                   className="btn btn-mint"
                   onClick={increment}
                 >
                   +
-                </button> */}
+                </button> 
               </div>
               <div>
                 <a
@@ -224,7 +233,7 @@ const MintComponent: React.FC = () => {
             {`Max claimable: ${maxClaimable} per wallet`}
           </span>
         )}
-      </div>
+      </div>*/}
     </div>
   );
 };
