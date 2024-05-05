@@ -93,15 +93,6 @@ const MintComponent: React.FC = () => {
 
   return (
     <div className="container mint-section">
-      <div>
-        <a
-          href="https://opensea.io/collection/xbirds-base"
-          className="btn btn-mint"
-          target="_blank"
-        >
-          Public Sale is over <br /> Buy at Opensea now
-        </a>
-      </div>
       {/* <div className="row my-4">
         <div className="col bg-white bg-opacity-10 rounded p-3 m-2">
           {!isActiveClaimPhaseLoading && (

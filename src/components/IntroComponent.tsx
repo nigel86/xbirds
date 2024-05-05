@@ -11,28 +11,31 @@ const IntroComponent = () => {
             </div>
             <h1 className="display-3 mb-4">What is XBirds?</h1>
             <p className="mb-4">
-              XBirds is a collection of 500 meticulously hand-drawn and
+              XBirds is a collection of 500 X-traordinary hand-drawn and
               distinctive NFT birds residing on the BASE blockchain. Beyond the
               mesmerizing art, each XBird offers exclusive access to a realm of
-              abundance and rewards. Join us on this remarkable journey and
-              become part of the XBirds saga!
+              abundance and rewards.
+            </p>
+            <p className="mb-4">
+              Join us on this remarkable journey and become part of the XBirds
+              saga!
             </p>
 
             <div className="d-flex justify-content-center justify-content-md-start mb-3 pb-4">
               <a
-                href="https://galxe.com/XBirds"
+                href="https://opensea.io/collection/xbirds-base"
                 className="btn d-flex align-items-center justify-content-center px-3 py-2 me-3 custom-outline mb-1 mb-md-0 btn-fixed-size"
                 target="_blank"
               >
-                XBirds Quest
+                OpenSea
               </a>
 
               <a
                 href="https://xbirds.gitbook.io/xbirds-docs"
-                className="btn d-flex align-items-center justify-content-center px-3 py-2 btn-outline-secondary btn-fixed-size"
+                className="btn d-flex align-items-center justify-content-center px-3 py-2 custom-outline btn-fixed-size"
                 target="_blank"
               >
-                Details
+                GitBook
               </a>
             </div>
           </div>
@@ -70,7 +73,7 @@ const IntroComponent = () => {
           </div>
         </div>
 
-        <div className="row pt-4 my-4 justify-content-center">
+        {/* <div className="row pt-4 my-4 justify-content-center">
           <div className="col-12 col-md-4 text-center mb-4">
             <h6 className="mb-0">Whitelist Price</h6>
             <h1 className="display-3 fw-bold text-primary mb-0">Whitelist</h1>
@@ -81,7 +84,7 @@ const IntroComponent = () => {
             <h1 className="display-3 fw-bold text-primary mb-0">0.002 ETH</h1>
             <h6 className="text-white-50">12 hours</h6>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
